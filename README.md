@@ -15,17 +15,17 @@ Through the main menu, the user can :
 
 - Select a **tag** to pick a station from
 
-    ![tag](screenshots/tag.png)
+![tag](screenshots/tag.png)
 
 - Select directly  a  **Favorite Station**.
 
 - **Edit Stations** and their tags, by editing the specific file:
 
-     ![edit_stations](screenshots/edit_stations.png)
+![edit_stations](screenshots/edit_stations.png)
 
 - **Configure Preferences**, by editing the .conf file:
 
-      ![nano](screenshots/nano.png)
+![nano](screenshots/nano.png)
 
 - **Find new Stations**, visiting [https://www.radio-browser.info/](https://www.radio-browser.info/)
 
@@ -37,11 +37,11 @@ Through the main menu, the user can :
 In order to *add a station* to **radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion, or through any text editor.
 The **format** of the line should be the following:
 
-`station url ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
+`station-url ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
 
-- The `station url` should go first.
-- `Station Name` should come next, between **tildes** `~`, and whitespaces substituted by *hyphen* `-`
-- Finally, tags come next, starting with *number sign* `#`. There can be as many tags in a line as the users like.
+- The `station-url` should go first.
+- `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by *hyphen* `-`
+- Finally, tags come next, starting with *number sign* `#`. There can be as many tags in a line as the user likes.
 -  The `#Favorites` tag adds the station to the **Favorites**.
 
 - Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, add `//` at the beginning.
@@ -56,7 +56,7 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 - **fzf format, dmenu format, rofi format**: Here the `fzf`,  `dmenu` and `rofi` command string can be configured. If the user is not sure they know what they are doing, they are advised to **leave these variables alone**. At any rate, visiting the respectable command `man` page is **highly recommended**.
 - **Show mpv keybindings**. Acceptable values: yes no. This variable toggles the appearence of a little **mpv keybinding cheatsheet**:
 
-      ![keybindings](screenshots/keybindings.png)
+![keybindings](screenshots/keybindings.png)
 
 
 
