@@ -1,0 +1,85 @@
+//JAZZ
+
+https://radio.nrk.no/direkte/jazz ~NRK-Jazz~ #Jazz
+https://cast1.torontocast.com:1655/stream ~ClassicalJazzRadio~ #Jazz
+https://tunein.com/radio/JAZZFM91-911-s31229/ ~JazzFM91~ #Jazz
+https://tunein.com/radio/TSF-Jazz-899-s16492/ ~TSF-Jazz~ #Jazz
+https://tunein.com/radio/Jazz24-885-s34682/ ~Jazz-24~ #Jazz
+https://tunein.com/radio/ABC-Lounge-Jazz-s127653/ ~ABC-Lounge-Jazz~ #Jazz
+https://tunein.com/radio/WBGO-883-s27437/ ~WBGO~ #Jazz
+https://tunein.com/radio/Jazz-Radio-973-s25926/ ~Jazz-Radio~ #Jazz
+https://tunein.com/radio/JAZZ-RADIO-LATIN-JAZZ-s191606/ ~Jazz-Radio-Latin-Jazz~ #Jazz
+https://tunein.com/radio/WUCF-FM-HD2-Latin-Jazz-899-s67214/ ~WUCF-FM-HD2-Latin-Jazz~ #Jazz
+https://tunein.com/radio/Antena-2-Jazz-In-s307990/ ~Antena-2-Jazz-In~ #Jazz
+https://tunein.com/radio/KCSM-Jazz-911-s32163/ ~KCSM-Jazz-911~ #Jazz
+https://tunein.com/radio/The-Jazz-Groove-s138946/ ~The-Jazz-Groove~ #Jazz
+https://tunein.com/radio/Giants-of-Jazz-Radio-s193288/ ~Giants-of-Jazz-Radio~ #Jazz
+https://tunein.com/radio/JFK-Radio-Ibiza-1052-s216836/ ~JFK-Radio-Ibiza-1052~ #Jazz
+https://tunein.com/radio/Jazz-London-Radio-s225199/ ~Jazz-London-Radio~ #Jazz
+https://tunein.com/radio/WDNA-889-s28289/ ~WDNA-889~ #Jazz
+https://tunein.com/radio/Jazz-de-Ville-Jazz-s304445/ ~Jazz-de-Ville-Jazz~ #Jazz
+https://tunein.com/radio/SomaFM-Sonic-Universe-s65557/ ~SomaFM-Sonic-Universe~ #Jazz #Favorites
+https://tunein.com/radio/WNMC-Community-Public-Radio-907-s21486/ ~WNMC-Community-Public-Radio~ #Jazz
+https://tunein.com/radio/The-Chiaroscuro-Channel-899-s156422/ ~The-Chiaroscuro-Channel~ #Jazz #Favorites
+http://amp.cesnet.cz:8000/cro-jazz.flac ~CesNet-Jazz~ #Jazz #Favorites
+https://www.jazzradio.hu:8000/jazzradio_192.ogg ~Jazzradio.hu~ #Jazz
+http://mscp3.live-streams.nl:8340/jazz-flac.flac ~Naim-Jazz~ #Jazz
+https://icecast.walmradio.com:8443/jazz_opus ~Adroit-Jazz-Underground-HD-Opus~ #Jazz
+http://198.204.228.202:8030/flac7 ~Super-Stereo-7~ #Jazz #Favorites
+https://air.jazz.w3.at/jazzw3.ogg ~JazzW3~ #Jazz
+
+//GREEK
+
+https://laterna.kafeneio.social/public/kafeneio ~Laterna~ #Greek #Rock #Favorites
+https://radiostreaming.ert.gr/ert-proto ~ΕΡΤ-Πρώτο-πρόγραμμα-91.6~ #Greek
+https://radiostreaming.ert.gr/ert-deftero ~ΕΡΤ-Δεύτερο-πρόγραμμα-103.7~ #Greek
+https://radiostreaming.ert.gr/ert-trito ~ΕΡΤ-Τρίτο-πρόγραμμα-90.9~ #Greek #Classical
+https://radiostreaming.ert.gr/ert-kosmos ~ΕΡΤ-Κόσμος-93.6~ #Greek
+http://radio.getimiskon.xyz/stream ~Getimiskon~ #Rock #Greek
+http://n08.radiojar.com/qgra821mrtwtv?rj-ttl=5&rj-tok=AAABizU2xLsAFCbxO4bxPEeXKg ~ThePressProject~ #Greek #Favorites
+https://www.1431am.org:8001/1431high ~1431ΑΜ~ #Greek #Rock
+http://n01.radiojar.com/1qpu1agw4mzuv.mp3?rj-ttl=5&rj-tok=AAABizoZePcAp7_RYOteWlFwKA ~Ioannina-Μunicipal~ #Greek
+https://rs.radio.uoc.gr:8001/uoc_128.mp3 ~Ra-sta-pan-k~ #Greek
+http://netradio.live24.gr/sportfm7712 ~Sport-FM-94.6~ #Greek
+http://stream.radiojar.com/aw1w2xfx1vduv ~Rythmos-94.9~ #Greek
+http://netradio.live24.gr/realfm ~Real-FM-97.8~ #Greek
+http://cast3.radiohost.ovh:8352/ ~Blues-Radio~ #Greek
+http://cast.magicstreams.gr:9111/stream ~Psyndora-Psytrance~ #Greek
+http://netradio.live24.gr/orange9320 ~Ellinikos-93.2~ #Greek
+http://mediaserver.mad.tv/stream ~Mad-Radio-106.2~ #Greek
+http://sfera.live24.gr/sfera4132 ~Sfera-102.2~ #Greek
+http://netradio.live24.gr:80/kanali1peiraia ~Pireas-Municipal~ #Greek
+
+//FOLK
+
+http://s3.onweb.gr:8878 ~Κρήτη-FM-87.5~ #Greek #Favorites #Folk
+https://radio.nrk.no/direkte/folkemusikk ~NRK-Folk~ #Folk
+http://www.pontosstockholm.com:8000/live.mp3 ~Pontos-Stockholm~ #Folk #Greek
+https://www.radioking.com/play/alternative-radio-1 ~Alternative-Radio~ #Folk
+https://stream-161.zeno.fm/87xam8pf7tzuv?zs=fvTPIM3xTWi1Ik-Z9095aA ~Radio-Lata-Mangeshkar~ #Folk
+http://162.244.80.118:4900/stream.mp3 ~FM-100-Pakistan~ #Folk
+http://stream.zeno.fm/h9x7hs6aqs8uv ~Mega-St☆r-Colombia~ #Folk
+https://stream.zeno.fm/zpd5he3sz7zuv ~La-Grupera-(Puebla)~ #Folk
+
+
+//CLASSICAL
+
+http://radio.cesnet.cz:8000/cro-d-dur.flac ~CesNet-Classic~ #Classical
+http://ice-the.musicradio.com/ClassicFMMP3 ~Classic-FM-UK~ #Classical
+http://icestreaming.rai.it/3.mp3 ~Rai-Radio-3~ #Classical
+https://icecast.walmradio.com:8443/walm2 ~WALM-2-HD~ #Classical
+http://relax.stream.publicradio.org/relax.mp3 ~Your-Classical---Relax~ #Classical
+http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3 ~Radio-Classique~ #Classical
+http://stream.srg-ssr.ch/m/rsc_de/mp3_128 ~Radio-Swiss-Classic-German~ #Classical
+
+//ALTERNATIVE
+
+https://icecast.teveo.cu/zrXXWK9F ~Radio-Rebelde~ #Alternative
+https://eu4.fastcast4u.com/proxy/nikoud00?mp=/1 ~Radio-Oi~ #Alternative
+https://www.autistici.org/radioasenino/92.1-sigla.mp3 ~Radio-Libera~ #Alternative
+https://live.radioradicale.it/ ~Radio-Radicale~ #Alternative
+http://media.radio-libertaire.org:8080/radiolib.mp3 ~Radio-Libertaire~ #Alternative
+https://zeppelin.streampunk.cc/_stream/blackout.mp3 ~Radio-BlackOut~ #Alternative
+https://radio.latina.red/lazarzamora.mp3 ~La-Zarzamora~ #Alternative
+https://radio.latina.red/radioulma.mp3 ~Radio-Ulma~ #Alternative
+http://radio.latina.red/ultimafrecuencia ~Radio-Ultima-Frecuencia~ #Alternative

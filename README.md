@@ -1,92 +1,141 @@
 # radion
 
+**radion** is an internet radio CLI client, written in Bash.
+
+![1read](screenshots/1read.png)
+
+Radion can be costumized as far as the station selecting program is concerned. The user can choose between:
+
+- **read**
+- **fzf**
+- **rofi**
+- **dmenu**
+
+Through the main menu, the user can :
+
+- Select a **tag** to pick a station from
+
+    ![tag](screenshots/tag.png)
+
+- Select directly  a  **Favorite Station**.
+
+- **Edit Stations** and their tags, by editing the specific file:
+
+     ![edit_stations](screenshots/edit_stations.png)
+
+- **Configure Preferences**, by editing the .conf file:
+
+      ![nano](screenshots/nano.png)
+
+- **Find new Stations**, visiting [https://www.radio-browser.info/](https://www.radio-browser.info/)
+
+- **Quit Radion**.
+
+---
+## Adding a Station
+
+In order to *add a station* to **radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion, or through any text editor.
+The **format** of the line should be the following:
+
+`station url ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
+
+- The `station url` should go first.
+- `Station Name` should come next, between **tildes** `~`, and whitespaces substituted by *hyphen* `-`
+- Finally, tags come next, starting with *number sign* `#`. There can be as many tags in a line as the users like.
+-  The `#Favorites` tag adds the station to the **Favorites**.
+
+- Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, add `//` at the beginning.
+
+---
+## Configuring radion (Preferences option)
+
+As mentioned above, selecting the `Preferences option` (or editing `$HOME/.config/radion/radion.conf` file using any text editor), the user can set the following preferences:
+
+- **Preferred selector**. Acceptable values: `read`, `fzf`, `rofi`, `dmenu`.
+- **Preferred editor**. Acceptable values can be `vim`, `nano`, `gedit`, `xed` or any other terminal or graphical text editor command **+ any flags**. For further info, visiting the respectable command `man` pages is  recommended.
+- **fzf format, dmenu format, rofi format**: Here the `fzf`,  `dmenu` and `rofi` command string can be configured. If the user is not sure they know what they are doing, they are advised to **leave these variables alone**. At any rate, visiting the respectable command `man` page is **highly recommended**.
+- **Show mpv keybindings**. Acceptable values: yes no. This variable toggles the appearence of a little **mpv keybinding cheatsheet**:
+
+      ![keybindings](screenshots/keybindings.png)
 
 
-## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+---
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Add your files
+## Dependencies
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+The principal dependency is the almighty [mpv](https://mpv.io/)
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/christosangel/radion.git
-git branch -M main
-git push -uf origin main
+sudo apt install mpv
 ```
 
-## Integrate with your tools
+**Radion** can function with no other dependencies, however, the user can install [fzf](https://github.com/junegunn/fzf), [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu/), according to their preference.
 
-- [ ] [Set up project integrations](https://gitlab.com/christosangel/radion/-/settings/integrations)
+![1fzf](screenshots/1fzf.png)
 
-## Collaborate with your team
+![1rofi](screenshots/1rofi.png)
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+![1dmenu](screenshots/1dmenu.png)
 
-## Test and Deploy
+## INSTALL
 
-Use the built-in continuous integration in GitLab.
+- Open a terminal window and run:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+```
+git clone https://gitlab.com/christosangel/radion/
+```
 
-***
+- Change directory to `radion/`, make `radion.sh` executable:
 
-# Editing this README
+```
+cd radion/
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+chmod +x radion.sh
+```
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- Create the necessary directories & files:
 
-## Name
-Choose a self-explaining name for your project.
+```
+mkdir ~/.cache/radion/
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+mkdir ~/.config/radion/
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+cp stations.txt ~/.cache/radion/
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+cp radion.conf ~/.config/radion/
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+cp -r png/  ~/.cache/radion/
+```
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+-Add `radion.sh` to the `PATH`:
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+```
+cp radion.sh ~/.local/bin/
+```
+You are ready to go!
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+---
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## Run
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+from any directory, run the command:
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+```
+radion.sh
+```
+![play](screenshots/play.png)
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+The mpv player is controlled with the mpv defined keybindings.
 
-## License
-For open source projects, say how it is licensed.
+The user can also create a launcher using one of the images from the `png/` directory:
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+![png](screenshots/png.png)
+
+***Enjoy!***
+
+---
+**Disclaimer**: No responsibility is taken regarding the stations, their content, status or whether they are operational or not. Their presence in the `stations.txt` is exclusively demonstrative, represent nobody's taste, nationality, affiliations or orientation, what is more the user is expected to populate this file with stations of their preference.
+
+---
