@@ -34,17 +34,17 @@ Through the main menu, the user can :
 ---
 ## Adding a Station
 
-In order to *add a station* to **radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion, or through any text editor.
-The **format** of the line should be the following:
+In order to **add a station to radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion, or through any text editor.
+**The format of the line should be the following**:
 
 `station-url ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
 
 - The `station-url` should go first.
-- `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by *hyphen* `-`
-- Finally, tags come next, starting with *number sign* `#`. There can be as many tags in a line as the user likes.
--  The `#Favorites` tag adds the station to the **Favorites**.
+- `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by **hyphen** `-`
+- Finally, tags come next, starting with **number sign** `#`. There can be as many tags in a line as the user likes.
+-  The **`#Favorites` tag** adds the station to the **Favorites**.
 
-- Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, add `//` at the beginning.
+- Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, **add `//` at the beginning**.
 
 ---
 ## Configuring radion (Preferences option)
