@@ -3,6 +3,13 @@
 # │ R ││ A ││ D ││ I ││ O ││ N │
 # ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯
 #A bash script written by Christos Angelopoulos, October 2023, under GPL v2
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    URL_OPENER="open"
+else 
+    URL_OPENER="xdg-open"
+fi 
+
 function keybindings ()
 {
 	echo -e "  ${B}╭─────┬──────────╮"
@@ -137,7 +144,7 @@ function read_select_tag ()
 		elif [[ $TAG_INDEX == "P" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
 		elif [[ $TAG_INDEX == "Q" ]];then clear;exit
 		elif [[ $TAG_INDEX == "A" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";grep -v -E ^$ $HOME/.cache/radion/stations.txt|grep -v -E ^// >$HOME/.cache/radion/.select_tag.txt;LOOP1=1
-		elif [[ $TAG_INDEX == "D" ]];then xdg-open "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
+		elif [[ $TAG_INDEX == "D" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
 		elif [[ -n $TAG_INDEX_NUM ]]&&[[ $TAG_INDEX_NUM -gt ${#TAGS[@]} ]]&&[[ $TAG_INDEX_NUM -le $(($z+${#FAVS[@]}+1)) ]]
 		then
 		STATION=${FAVS[$(($TAG_INDEX_NUM-$x-1))]}
@@ -170,7 +177,7 @@ function select_tag ()
 		elif [[ $TAG_INDEX == "🔧 Preferences" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
 		elif [[ $TAG_INDEX == "❌ Quit Radion" ]];then clear;exit
 		elif [[ $TAG_INDEX == "⭐ All Stations" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";LOOP1=1
-		elif [[ $TAG_INDEX == "🔎 Find Stations" ]];then xdg-open "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
+		elif [[ $TAG_INDEX == "🔎 Find Stations" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
 		elif [[ $TAG_INDEX == *"────────────"* ]];then LOOP1=0
 		#echo -e "${C}Congratulations.\nYou selected the separator line.\nA wise choise.\n${B}Press any key to continue.${n}";read -sn 1 d
 		elif [[ -n $(grep "~${TAG_INDEX// /-}~" $HOME/.cache/radion/stations.txt|awk '{print $1}') ]]
