@@ -4,11 +4,7 @@
 # ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯
 #A bash script written by Christos Angelopoulos, October 2023, under GPL v2
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    URL_OPENER="open"
-else 
-    URL_OPENER="xdg-open"
-fi 
+
 
 function keybindings ()
 {
@@ -46,6 +42,11 @@ function print_logo ()
 
 function load_config ()
 {
+	if [[ "$OSTYPE" == "darwin"* ]]; then
+		URL_OPENER="open"
+	else
+		URL_OPENER="xdg-open"
+	fi
 	PREF_SELECTOR="$(grep 'Preferred_selector' $HOME/.config/radion/radion.conf|awk '{print $2}')";
 	FZF_FORMAT="$(grep 'fzf_format' $HOME/.config/radion/radion.conf|sed 's/fzf_format//;s/|//')";
 	ROFI_FORMAT="$(grep 'rofi_format' $HOME/.config/radion/radion.conf|sed 's/rofi_format//;s/|//')";
