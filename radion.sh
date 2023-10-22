@@ -111,7 +111,7 @@ function read_select_tag ()
 	do
 		clear
 		print_logo
-		TAGS=( $(sed 's/ /\n/g' stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g') )
+		TAGS=( $(sed 's/ /\n/g' $HOME/.cache/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g') )
 
 		echo -e "${B}   ╭──────────────────────────Tags─╮"
 		x=0
