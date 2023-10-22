@@ -1,6 +1,6 @@
 # radion
 
-**radion** is an internet radio CLI client, written in Bash.
+**radion** is an internet radio CLI client, written in Bash, for **Gnu/Linux and MacOS**.
 
 ![1read](screenshots/1read.png)
 
@@ -68,13 +68,13 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 
 The principal dependency is the almighty [mpv](https://mpv.io/)
 
-**linux**
+**Debian based linux**:
 
 ```
 sudo apt install mpv
 ```
 
-**macOS**
+**macOS**:
 
 ```
 brew install mpv
