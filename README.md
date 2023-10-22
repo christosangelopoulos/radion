@@ -68,8 +68,16 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 
 The principal dependency is the almighty [mpv](https://mpv.io/)
 
+**linux**
+
 ```
 sudo apt install mpv
+```
+
+**macOS**
+
+```
+brew install mpv
 ```
 
 **Radion** can function with no other dependencies, however, the user can install [fzf](https://github.com/junegunn/fzf), [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu/), according to their preference.
