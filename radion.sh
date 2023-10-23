@@ -92,8 +92,8 @@ function read_select_station ()
 
 		read  INDEX
 		INDEX_NUM="$(echo $INDEX|sed 's/[[:cntrl:]]//g;s/[a-z]//g;s/[A-Z]//g;s/[[:punct:]]//g;s/ //g')"
-		if [[ $INDEX == "Q" ]];then clear;exit
-		elif [[ $INDEX == "X" ]];then LOOP2=1;ABORT=1
+		if [[ $INDEX == "Q" ]]||[[ $INDEX == "q" ]];then clear;exit
+		elif [[ $INDEX == "X" ]]||[[ $INDEX == "x" ]];then LOOP2=1;ABORT=1
 		elif [[ -n $INDEX_NUM ]]&&[[ $INDEX_NUM -gt 0 ]]&&[[ $INDEX_NUM -le $LINEMAX ]]&&[[ $ABORT -eq 0 ]]
 		then
 			STATION_URL="$(awk '{print NR" "$0}' $HOME/.cache/radion/.select_tag.txt|grep -E "^$INDEX_NUM "|awk '{print $2}')"
@@ -141,11 +141,11 @@ function read_select_tag ()
 		echo -e "   ╰───────────────────────────────╯${M}"
 		read TAG_INDEX
 		TAG_INDEX_NUM="$(echo $TAG_INDEX|sed 's/[[:cntrl:]]//g;s/[a-z]//g;s/[A-Z]//g;s/[[:punct:]]//g;s/ //g')"
-		if [[ $TAG_INDEX == "E" ]];then eval $PREF_EDITOR $HOME/.cache/radion/stations.txt
-		elif [[ $TAG_INDEX == "P" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
-		elif [[ $TAG_INDEX == "Q" ]];then clear;exit
-		elif [[ $TAG_INDEX == "A" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";grep -v -E ^$ $HOME/.cache/radion/stations.txt|grep -v -E ^// >$HOME/.cache/radion/.select_tag.txt;LOOP1=1
-		elif [[ $TAG_INDEX == "D" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
+		if [[ $TAG_INDEX == "E" ]]||[[ $TAG_INDEX == "e" ]];then eval $PREF_EDITOR $HOME/.cache/radion/stations.txt
+		elif [[ $TAG_INDEX == "P" ]]||[[ $TAG_INDEX == "p" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
+		elif [[ $TAG_INDEX == "Q" ]]||[[ $TAG_INDEX == "q" ]];then clear;exit
+		elif [[ $TAG_INDEX == "A" ]]||[[ $TAG_INDEX == "a" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";grep -v -E ^$ $HOME/.cache/radion/stations.txt|grep -v -E ^// >$HOME/.cache/radion/.select_tag.txt;LOOP1=1
+		elif [[ $TAG_INDEX == "D" ]]||[[ $TAG_INDEX == "d" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
 		elif [[ -n $TAG_INDEX_NUM ]]&&[[ $TAG_INDEX_NUM -gt ${#TAGS[@]} ]]&&[[ $TAG_INDEX_NUM -le $(($z+${#FAVS[@]}+1)) ]]
 		then
 		STATION=${FAVS[$(($TAG_INDEX_NUM-$x-1))]}
