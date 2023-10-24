@@ -109,6 +109,8 @@ It is advisable **not** to disable yad notifications, as it would be challenging
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 
+![yad](screenshots/yad.png)
+
 Yad dialogs that prompt the user for the output audio file appear in the center of the screen.
 
 - **Yad duration** controls notifications duration (seconds). 
