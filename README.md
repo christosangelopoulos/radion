@@ -98,9 +98,11 @@ It is advisable **not** to disable yad notifications, as it would be challenging
 
 **Keeping the script recording indefinetely could have comicotragical repercussions**.
 
-If, however, you decide to proceed without notifications (perhaps because the user can't / won't install `yad`), it is advisable to **always run the script in a terminal and never headless**, regardeless whether the launcher is a keybind, desktop or panel launcher. Furthermore, this way the script will run flawlessly and without any need for *tinkering*, if you configure the **Rec name protocol** to `date `, or `epoch`.
+If, however, you decide to proceed without notifications (perhaps because the user can't / won't install `yad`), it is advisable to **always run the script in a terminal and never headless**, regardeless whether the launcher is a keybind, desktop or panel launcher.
 
 ![launcher](screenshots/launcher.png)
+
+With notifications toggled off, `blank ` naming protocol defaults to `epoch`. Same thing happens to `icy`, when there is no title available with notifications toggled off.
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 

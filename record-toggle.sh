@@ -23,7 +23,6 @@ function name_file()
 
 function load_config ()
 {
-#	RECORD_DIR="$(grep 'Record_directory' $HOME/.config/radion/radion.conf|awk '{print $2}')";
 	RECORD_DIR="$(grep 'Record_directory' $HOME/.config/radion/radion.conf|sed 's/Record_directory //')";
 	YAD_TOGGLE="$(grep 'Yad_toggle' $HOME/.config/radion/radion.conf|sed 's/Yad_toggle //')";
 	YAD_DURATION="$(grep 'Yad_duration' $HOME/.config/radion/radion.conf|sed 's/Yad_duration//')";
@@ -45,12 +44,11 @@ then
 	case $REC_NAME_PROTOCOL in
 		"date")REC_NAME="$(date +%Y-%m-%d\_%T)";
 		;;
-		"icy")name_file "Is this the correct title?" "$(tail -1  ~/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')"
+		"icy")if [[ $YAD_TOGGLE == "yes" ]];then name_file "Is this the correct title?" "$(tail -1  ~/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";else REC_NAME="$(tail -1  ~/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";if [[ -z $REC_NAME ]]||[[ $REC_NAME == "No title available" ]];then REC_NAME="$(date +%s)";fi;fi;
 		;;
 		"epoch")REC_NAME="$(date +%s)";
 		;;
-		"blank")name_file "Please enter file name:" ""
-		;;
+		"blank")if [[ $YAD_TOGGLE == "yes" ]];then name_file "Please enter file name:" "";else REC_NAME="$(date +%s)";fi
 	esac
 	sox /tmp/radion-tmp1.wav "$HOME""$RECORD_DIR""$REC_NAME.$OUT_FORMAT" norm
 	if [[ $YAD_TOGGLE == "yes" ]];then killall yad
