@@ -234,7 +234,7 @@ https://streamer.eagrpservices.com/audio/medradio.mp3 ~Med-Radio~ #Rock
 https://cpliv3.onliv3.com/stream/radiozeta ~Z-Rock-&-Pop~ #Rock
 http://webradio.tda.dz:8001/ElBahdja_64K.mp3 ~el-bahdja-fm~ #Rock
 http://nashe1.hostingradio.ru/ultra-192.mp3 ~Radio-Ultra~ #Rock
-https://giorgia.radiobellissima.it/radio/8210/radio.mp3 ~-#1-RdMix-Classic-Rock~ #Rock
+https://giorgia.radiobellissima.it/radio/8210/radio.mp3 ~1-RdMix-Classic-Rock~ #Rock
 http://online.radioroks.ua/RadioROKS_Ballads_HD ~Radio-ROKS-Ballads~ #Rock
 https://dispatcher.rndfnk.com/br/br3/live/mp3/mid?aggregator=web ~Bayern-3~ #Rock
 https://broadcast.shoutstream.co.uk/stream/8014 ~Classic-Rock-California~ #Rock
