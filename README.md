@@ -47,7 +47,7 @@ In order to **add a station to radion**, the user edits the `$HOME/.cache/radion
 - Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, **add `//` at the beginning**.
 
 ---
-##Recording
+## Recording
 
 **Recording a radio stream** in **radion** can be done with another bash script called `record-toggle.sh`.
 This script uses the powerful [sox](https://en.wikipedia.org/wiki/SoX) program to record the default output, which evidently plays the radion mpv output.
@@ -105,7 +105,7 @@ The following values are about notifications using `yad`.
 
 It is advisable **not** to disable yad notifications, as it would be challenging to keep in mind if the script is running or not.
 
-**Keeping the script recording indefinetely could have comicotragical repercussions. **
+**Keeping the script recording indefinetely could have comicotragical repercussions**.
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 
@@ -193,7 +193,7 @@ brew install mpv
 
 The main dependency is [sox](https://en.wikipedia.org/wiki/SoX)
 
-In Debian-based OSs:
+**Debian based linux**:
 
 ```
 sudo apt install sox libsox-fmt-mp3
