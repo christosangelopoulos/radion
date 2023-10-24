@@ -1,28 +1,27 @@
 //JAZZ
 
-https://radio.nrk.no/direkte/jazz ~NRK-Jazz~ #Jazz
+https://lyd.nrk.no/nrk_radio_jazz_mp3_h ~NRK-Jazz~ #Jazz #Favorites
 https://cast1.torontocast.com:1655/stream ~ClassicalJazzRadio~ #Jazz
 https://tunein.com/radio/JAZZFM91-911-s31229/ ~JazzFM91~ #Jazz
-https://tunein.com/radio/TSF-Jazz-899-s16492/ ~TSF-Jazz~ #Jazz
-https://tunein.com/radio/Jazz24-885-s34682/ ~Jazz-24~ #Jazz
-https://tunein.com/radio/ABC-Lounge-Jazz-s127653/ ~ABC-Lounge-Jazz~ #Jazz
-https://tunein.com/radio/WBGO-883-s27437/ ~WBGO~ #Jazz
-https://tunein.com/radio/Jazz-Radio-973-s25926/ ~Jazz-Radio~ #Jazz
-https://tunein.com/radio/JAZZ-RADIO-LATIN-JAZZ-s191606/ ~Jazz-Radio-Latin-Jazz~ #Jazz
-https://tunein.com/radio/WUCF-FM-HD2-Latin-Jazz-899-s67214/ ~WUCF-FM-HD2-Latin-Jazz~ #Jazz
-https://tunein.com/radio/Antena-2-Jazz-In-s307990/ ~Antena-2-Jazz-In~ #Jazz
-https://tunein.com/radio/KCSM-Jazz-911-s32163/ ~KCSM-Jazz-911~ #Jazz
-https://tunein.com/radio/The-Jazz-Groove-s138946/ ~The-Jazz-Groove~ #Jazz
-https://tunein.com/radio/Giants-of-Jazz-Radio-s193288/ ~Giants-of-Jazz-Radio~ #Jazz
-https://tunein.com/radio/JFK-Radio-Ibiza-1052-s216836/ ~JFK-Radio-Ibiza-1052~ #Jazz
-https://tunein.com/radio/Jazz-London-Radio-s225199/ ~Jazz-London-Radio~ #Jazz
-https://tunein.com/radio/WDNA-889-s28289/ ~WDNA-889~ #Jazz
-https://tunein.com/radio/Jazz-de-Ville-Jazz-s304445/ ~Jazz-de-Ville-Jazz~ #Jazz
-https://tunein.com/radio/SomaFM-Sonic-Universe-s65557/ ~SomaFM-Sonic-Universe~ #Jazz #Favorites
-https://tunein.com/radio/WNMC-Community-Public-Radio-907-s21486/ ~WNMC-Community-Public-Radio~ #Jazz
-https://tunein.com/radio/The-Chiaroscuro-Channel-899-s156422/ ~The-Chiaroscuro-Channel~ #Jazz #Favorites
+http://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3 ~TSF-Jazz~ #Jazz
+https://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1 ~Jazz-24~ #Jazz
+http://live-radio01.mediahubaustralia.com/JAZW/mp3/ ~ABC-Jazz~ #Jazz
+http://wbgo.streamguys.net/ ~WBGO~ #Jazz
+http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3 ~Jazz-Radio~ #Jazz
+http://jazz-wr09.ice.infomaniak.ch/jazz-wr09-128.mp3 ~Jazz-Radio-Latin-Jazz~ #Jazz
+http://peridot.streamguys.com:7830/WUCF ~WUCF-FM-HD2-Latin-Jazz~ #Jazz
+https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8 ~Antena-2-JazzIn~ #Jazz
+http://ice7.securenetsystems.net/KCSM2 ~KCSM-Jazz-911~ #Jazz
+http://west-aac-64.streamthejazzgroove.com/stream ~The-Jazz-Groove-West~ #Jazz
+http://streaming.radio.co/s297e618a7/listen ~Giants-of-Jazz-Radio~ #Jazz
+http://radio.canstream.co.uk:8075/live.mp3 ~Jazz-London-Radio~ #Jazz
+http://us9.streamingpulse.com:7033/stream.m3u ~WDNA-889~ #Jazz
+https://onair22.xdevel.com/proxy/xautocloud_kkyb_420?mp=/stream ~Jazz-de-Ville-Jazz~ #Jazz
+http://somafm.com/sonicuniverse192.pls ~SomaFM-Sonic-Universe~ #Jazz #Favorites
+http://s4.yesstreaming.net:7170/stream ~WNMC-Community-Public-Radio~ #Jazz
+https://wvia.streamguys1.com/WVIAHD3AAC.m3u ~The-Chiaroscuro-Channel~ #Jazz #Favorites
 http://amp.cesnet.cz:8000/cro-jazz.flac ~CesNet-Jazz~ #Jazz #Favorites
-https://www.jazzradio.hu:8000/jazzradio_192.ogg ~Jazzradio.hu~ #Jazz
+https://www.jazzradio.hu:8000/jazzradio_192.ogg ~Jazzradio.hu~ #Jazz #Favorites
 http://mscp3.live-streams.nl:8340/jazz-flac.flac ~Naim-Jazz~ #Jazz
 https://icecast.walmradio.com:8443/jazz_opus ~Adroit-Jazz-Underground-HD-Opus~ #Jazz
 http://198.204.228.202:8030/flac7 ~Super-Stereo-7~ #Jazz #Favorites
@@ -68,7 +67,7 @@ http://radio.cesnet.cz:8000/cro-d-dur.flac ~CesNet-Classic~ #Classical
 http://ice-the.musicradio.com/ClassicFMMP3 ~Classic-FM-UK~ #Classical
 http://icestreaming.rai.it/3.mp3 ~Rai-Radio-3~ #Classical
 https://icecast.walmradio.com:8443/walm2 ~WALM-2-HD~ #Classical
-http://relax.stream.publicradio.org/relax.mp3 ~Your-Classical---Relax~ #Classical
+http://relax.stream.publicradio.org/relax.mp3 ~Your-Classical-Relax~ #Classical
 http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3 ~Radio-Classique~ #Classical
 http://stream.srg-ssr.ch/m/rsc_de/mp3_128 ~Radio-Swiss-Classic-German~ #Classical
 
@@ -120,3 +119,200 @@ https://www.edenofthewest.com/public/eden-radio/playlist.pls ~Eden-Radio~ #Anime
 https://stream-mixtape-geo.ntslive.net/mixtape36 ~Otaku- -NTS~ #Anime
 https://yggdrasilradio.net/yggdrasilradio_mp3_128kbps.pls ~Yggdrasil-Radio~ #Anime
 https://stream.gensokyoradio.net/2 ~Gensokyo-Radio-2~ #Anime
+
+// NEW WAVE
+
+http://somafm.com/u80s.pls ~SomaFM-Underground-80s~ #New-Wave
+http://cdn.nrjaudio.fm/adwz1/fr/30703/mp3_128.mp3 ~Nostalgie-New-Wave~ #New-Wave
+https://puma.streemlion.com:2910/stream ~80's-New-Wave-Radio~ #New-Wave
+http://stream.laut.fm/ultradarkradio ~Ultra-Dark-Radio~ #New-Wave
+https://samcloud.spacial.com/api/listen?sid=111415&_80s&live&mp3 ~_80s_Radio~ #New-Wave
+https://fluxfm.streamabc.net/flx-hardrock-mp3-320-7063932?sABC=6202qsp7%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355527 ~DrGnu-Hard-Rock-II~ #New-Wave
+https://premium.shoutcastsolutions.com/radio/8050/256.mp3 ~80s-Forever-We-Keep-The-80s-Alive~ #New-Wave
+https://msmn3.co/proxy/x1mp33?mp=/stream ~NME-1~ #New-Wave
+https://0n-newwave.radionetz.de/0n-newwave.mp3 ~-0-N-New-Wave-on-Radio~ #New-Wave
+https://radio.rtbf.be/c21-80nw/mp3-128/me ~Classic-21-80's-New-Wave~ #New-Wave
+http://music.myradio.ua:8000/depechemode128.mp3 ~MyRadio-Depeche-Mode~ #New-Wave
+http://www.shoutcastitalia.com:8016/listen.pls ~Radio-Mela~ #New-Wave
+http://azuracast.ssl-stream.com/radio/8050/256.mp3 ~80s-Forever-We-Keep-The-80s-Alive~ #New-Wave
+https://playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFNEWWAVE.mp3 ~Nostalgie-Extra-(New-Wave)~ #New-Wave
+http://www.radioking.com/play/radio-zodiac-ireland ~Radio-Zodiac-Ireland~ #New-Wave
+http://streams.radiobob.de/metallica/mp3-192/mediaplayer/ ~DrGnu-Metallica~ #New-Wave
+https://novazz.ice.infomaniak.ch/novazz-128.mp3 ~RADIO-NOVA~ #New-Wave
+http://stream.radionoordvaarder.nl:8050/ ~Radio-Noordvaarder-Reiki~ #New-Wave
+http://stream.laut.fm/synthpop ~Laut.FM-SynthPop~ #New-Wave
+https://stream.laut.fm/ebm ~EBM~ #New-Wave
+http://stream.rfm.fr/rfm-wr12.aac/playlist.m3u8 ~RFM-100%-New-Wave~ #New-Wave
+http://ice1.somafm.com/u80s-256-mp3 ~SomaFM-Underground-80s~ #New-Wave
+http://streams.radiobob.de/metalcore/mp3-192/mediaplayer ~DrGnu-Metalcore-1~ #New-Wave
+http://95.217.34.48:8928/stream ~GEM-New-Wave-Radio~ #New-Wave
+http://stream.laut.fm/klangwelt ~Klangwelt~ #New-Wave
+https://nr9.newradio.it/proxy/ebaruffa?mp=/stream ~NEU-RADIO~ #New-Wave
+https://0n-newwave.radionetz.de/0n-newwave.aac ~-0-N-New-Wave-on-Radio~ #New-Wave
+http://stream.laut.fm/petshopboys ~PetShopBoys~ #New-Wave
+http://stream.laut.fm/kakerlakenradio ~laut.fm-Kakerlakenradio~ #New-Wave
+http://synth-radio.ru/synthradio192.m3u ~Synthradio~ #New-Wave
+http://somafm.com/u80s64.pls ~SomaFM-Underground-80s-[64kb]~ #New-Wave
+http://streams.radiobob.de/bob-metal/mp3-192/mediaplayer ~DrGnu-Metal-1~ #New-Wave
+http://streams.radiobob.de/gothic/mp3-192/mediaplayer ~DrGnu-Gothic~ #New-Wave
+https://gemradionw.radioca.st/;stream.nsv ~Gem-Radio-New-Wave~ #New-Wave
+http://stream.laut.fm/alternativeworld ~Alternativeworld~ #New-Wave
+https://streams.radiobob.de/70errock/mp3-192/streams.radiobob.de/ ~RADIO-BOB-70er-Rock-[mp3- -192-kbps]~ #New-Wave
+http://stream.laut.fm/electrozombies ~ElectroZombies~ #New-Wave
+http://stream.laut.fm/wavebreaker ~Wavebreaker~ #New-Wave
+http://ec4.yesstreaming.net:2180/ ~Sfliny-Alternative-80's-~ #New-Wave
+https://maggie.torontocast.com:9028/stream ~Alternative-Rock-Variety-@-MEGASHUFFLE.com~ #New-Wave
+http://streams.radiobob.de/bob-90srock/mp3-192/mediaplayer ~DrGnu-90th-Rock~ #New-Wave
+https://ais-sa3.cdnstream1.com/2606_64.aac ~BAGeL-Radio~ #New-Wave
+https://streams.radiobob.de/70errock/aac-64/streams.radiobob.de/ ~RADIO-BOB-70er-Rock-[aac- -64-kbps]~ #New-Wave
+http://streams.radiobob.de/bob-hartesaite/mp3-192/mediaplayer ~DrGnu-Hard-Side~ #New-Wave
+http://stream.laut.fm/dark-sound-united ~laut.fm-Dark-Sound-United~ #New-Wave
+https://streaming.exclusive.radio/er/INXS/icecast.audio ~Exclusively-INXS~ #New-Wave
+http://streams.radiobob.de/rockparty/mp3-192/mediaplayer/ ~DrGnu-Rock-Party~ #New-Wave
+https://fluxfm.streamabc.net/flx-80er-mp3-320-9596107?sABC=6202qrr6%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355302 ~DrGnu-80th-Rock-II~ #New-Wave
+http://stream.laut.fm/tonaktiv ~Tonaktiv~ #New-Wave
+http://streams.radiobob.de/ritter/mp3-192/mediaplayer ~DrGnu-Metal-2-Knight~ #New-Wave
+https://streaming.exclusive.radio/er/thecure/icecast.audio ~Exclusively-The-Cure~ #New-Wave
+https://cast.radioservicios.cl:8314/radio ~Radio-Colombina~ #New-Wave
+http://stream.laut.fm/dark-mythos ~laut.fm-Dark-Mythos~ #New-Wave
+http://fluxfm.streamabc.net/flx-70er-mp3-320-4383769?sABC=6202qr25%230%237osorqnn86p8nnp979o1124290qqo247%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355109 ~DrGnu-70th-Rock~ #New-Wave
+https://streaming.exclusive.radio/er/elviscostello/icecast.audio ~Exclusively-Elvis-Costello~ #New-Wave
+http://stream.laut.fm/darkzeroradio ~DARK-ZERO-RADIO~ #New-Wave
+https://fluxfm.streamabc.net/flx-metalfm-mp3-320-9154971?sABC=6202r2p8%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644356296 ~DrGnu-Metal-2~ #New-Wave
+http://stream.laut.fm/soundsystem ~Soundsystem~ #New-Wave
+https://patmos.cdnstream.com/proxy/sanctua1?mp=/stream2 ~Sanctuary-Radio-(Retro-80s-Channel)~ #New-Wave
+http://somafm.com/u80s32.pls ~SomaFM-Underground-80s~ #New-Wave
+https://stream.laut.fm/80er-revival ~80er-Revival~ #New-Wave
+https://onlineradiobox.com/json/fr/teenagekicks/play ~Teenage-Kicks-Radio~ #New-Wave
+http://streams.radiobob.de/bob-wacken/mp3-192/mediaplayer ~DrGnu-Wacken-Radio~ #New-Wave
+http://streams.radiobob.de/bob-national/mp3-192/mediaplayer ~DrGnu-BOB's-Livestream~ #New-Wave
+https://fluxfm.streamabc.net/flx-event04-mp3-320-5268754?sABC=6202r047%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355655 ~DrGnu-X-Mas-Rock-II~ #New-Wave
+http://here4ears.ddns.net/ ~here4ears~ #New-Wave
+http://hydra.cdnstream.com/1552_128?listenerId=874e5aaea897e6a11bc60184f95f9946&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689285807 ~Dare-FM~ #New-Wave
+-JC" ~"UNIVERSAL-y-LA-OCTAVA-(Guadalajara)-700-AM-XEDKR-AM-Grupo-Radio-Centro-Guadalajara~ #New-Wave
+http://bigrradio.cdnstream1.com/5208_128 ~Big-R-Radio-The-Wave~ #New-Wave
+http://wera.broadcasttool.stream/stream ~WERA-96.7~ #New-Wave
+
+// ROCK
+
+http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3 ~1LIVE~ #Rock
+http://nashe1.hostingradio.ru/rock-128.mp3 ~ROCK-FM~ #Rock
+http://195.95.206.17/HitFM ~Hit-FM-(UKraine)-128kb/s~ #Rock
+http://ice10.outlaw.fm/KIEV2 ~Outlaw-Country-Radio~ #Rock
+http://mp3channels.webradio.rockantenne.de/rockantenne ~Rock-Antenne~ #Rock
+https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/live.m3u8 ~Radio-Oxígeno~ #Rock
+http://radioeins.de/stream ~Radio-Eins~ #Rock
+http://bigrradio.cdnstream1.com/5186_128 ~Big-R-Radio-80s-Metal-FM~ #Rock
+http://icy.unitedradio.it/VirginRockClassics.mp3 ~Virgin-Radio-Classic-Rock~ #Rock
+http://lin3.ash.fast-serv.com:6026/stream_96 ~Rockabilly-radio.net~ #Rock
+http://78.129.202.200:8040/; ~Radio-Caroline~ #Rock
+http://stream-25.zeno.fm/8wv4d8g4344tv?zs=S8fa0NpET3qEAr8zRdUK2w ~Radio-Today~ #Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac ~Radio-Mix-FM~ #Rock
+http://cdn.nrjaudio.fm/audio1/fr/30401/aac_64.mp3 ~Rire-et-Chansons~ #Rock
+http://listen.cdnstream.com/hrhradio/1521_128.m3u ~Hard-Rock-Heaven~ #Rock
+http://provisioning.streamtheworld.com/pls/VIRGIN_RADIO.pls ~Virgin-Radio-Türkiye~ #Rock
+https://webradio.tda.dz/Jeunesse_64K.mp3 ~JiL-fm-HD~ #Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/XHMFMAAC_SC.aac ~88.9-Noticias-88.9-FM-XHM-FM-Grupo-ACIR-Ciudad-de-México~ #Rock
+http://icecast.unitedradio.it/Virgin.mp3 ~Virgin-Radio-Italia~ #Rock
+http://ice.abradio.cz/rockradio128.mp3 ~Radio-ROCK~ #Rock
+https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8 ~Power-POP~ #Rock
+http://icecast2.play.cz/radiobeat128.mp3 ~Radio-Beat~ #Rock
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_two.m3u8 ~BBC-Radio-2~ #Rock
+https://25283.live.streamtheworld.com/RADIO538.mp3 ~Radio-538~ #Rock
+https://n-4-2.dcs.redcdn.pl/sc/o2/Eurozet/live/antyradio.livx?audio=5 ~Antyradio~ #Rock
+http://streaming.radio.rtl2.fr/rtl2-1-44-128 ~RTL2~ #Rock
+https://somafm.com/indiepop130.pls ~SomaFM-Indie-Pop-Rocks!~ #Rock
+https://dc4.serverse.com/proxy/pearlfm/stream/1/ ~107.9-Pearl-Fm~ #Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/XEFRAMAAC.aac ~Radio-Felicidad-1180-AM-XEFR-AM-Grupo-ACIR-Ciudad-de-México~ #Rock
+http://rock.volna.top/RusRock ~Русский-Рок-Russian-Rock~ #Rock
+http://stream.radioparadise.com/rock-320 ~Radio-Paradise-Rock-Mix~ #Rock
+https://stream.radio.co/sbb4e6ffc8/listen.m3u ~88.5-Super-Fm~ #Rock
+https://live.wostreaming.net/manifest/townsquare-kftefmaac-ibc3 ~Classic-Rock-105.1~ #Rock
+http://ice3.somafm.com/poptron-128-mp3 ~SomaFM-PopTron~ #Rock
+https://0n-classicrock.radionetz.de/0n-classicrock.mp3 ~-0-N-Classic-Rock-on-Radio~ #Rock
+https://streamer.eagrpservices.com/audio/medradio.mp3 ~Med-Radio~ #Rock
+https://cpliv3.onliv3.com/stream/radiozeta ~Z-Rock-&-Pop~ #Rock
+http://webradio.tda.dz:8001/ElBahdja_64K.mp3 ~el-bahdja-fm~ #Rock
+http://nashe1.hostingradio.ru/ultra-192.mp3 ~Radio-Ultra~ #Rock
+https://giorgia.radiobellissima.it/radio/8210/radio.mp3 ~-#1-RdMix-Classic-Rock~ #Rock
+http://online.radioroks.ua/RadioROKS_Ballads_HD ~Radio-ROKS-Ballads~ #Rock
+https://dispatcher.rndfnk.com/br/br3/live/mp3/mid?aggregator=web ~Bayern-3~ #Rock
+https://broadcast.shoutstream.co.uk/stream/8014 ~Classic-Rock-California~ #Rock
+https://maximum.hostingradio.ru/maximum128.mp3 ~Радио-Maximum~ #Rock
+http://ice.somafm.com/seventies-320.mp3 ~SomaFM-Left-Coast-70s~ #Rock
+http://streams.fluxfm.de/live/mp3-320/audio/ ~FluxFM~ #Rock
+https://23683.live.streamtheworld.com/SURIA_FMAAC.aac ~Suria-FM~ #Rock
+http://162.244.81.98:8140/listen ~Oldies-Internet-Radio~ #Rock
+http://online.hitfm.ua/HitFM_Top ~Hit-FM-(Modern-hits)~ #Rock
+http://ice55.securenetsystems.net/DASH14 ~Monsters-of-Rock~ #Rock
+https://canli.arabeskinmerkezi.com/9180/stream ~-_-101.1-ALGERİA-FM~ #Rock
+http://svr1.msmn.co:8136/ ~NME-1-Classic-&-New-Indie-Alt~ #Rock
+https://kathy.torontocast.com:2800/; ~metal-rock-radio~ #Rock
+https://server1.stweb.tv/rcvos/live/playlist.m3u8 ~Radio-Con-Vos-89.9~ #Rock
+https://stream.almadinafm.com/;stream.mp3 ~AL-MADDINA-FM~ #Rock
+http://icy.unitedradio.it/VirginRock70.mp3 ~Virgin-Radio-Rock-'70~ #Rock
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m-mp4a_130400_qad=1.m3u8 ~Radio-2M~ #Rock
+http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-Classic-Rock~ #Rock
+
+//HEAVY METAL
+
+http://bigrradio.cdnstream1.com/5186_128 ~Big-R-Radio-80s-Metal-FM~ #Heavy-Metal
+http://listen.cdnstream.com/hrhradio/1521_128.m3u ~Hard-Rock-Heaven~ #Heavy-Metal
+http://mp3channels.webradio.rockantenne.de/heavy-metal ~Rock-Antenne-Heavy-Metal~ #Heavy-Metal
+http://icecast2.play.cz/radiobeat128.mp3 ~Radio-Beat~ #Heavy-Metal
+http://46.4.184.212:8000/; ~Metallica-&-Iron-Maiden-ONLY~ #Heavy-Metal
+http://fm02-ice.stream.khz.se/fm02_mp3 ~Bandit-Rock~ #Heavy-Metal
+https://giorgia.radiobellissima.it:8110/radio.mp3 ~100-GREATEST-HEAVY-METAL~ #Heavy-Metal
+http://usa17.fastcast4u.com:5508/listen.pls ~ChroniX-Radio-Metalcore~ #Heavy-Metal
+https://online.radioroks.ua/RadioROKS_HD ~Radio-ROCKS-Kyiv-103.6FM-HD~ #Heavy-Metal
+https://streaming.exclusive.radio/er/blacksabbath/icecast.audio ~Exclusive-Radio-–-Black-Sabbath~ #Heavy-Metal
+https://streaming.exclusive.radio/er/ironmaiden/icecast.audio ~Exclusively-Iron-Maiden~ #Heavy-Metal
+http://playerservices.streamtheworld.com/pls/SAM07AAC286.pls ~Rock-Radio-Online-Mexico~ #Heavy-Metal
+https://maximum80.hostingradio.ru/max8096.aacp ~Radio-Maximum-Heavy-80s~ #Heavy-Metal
+https://fluxfm.streamabc.net/flx-hardrock-mp3-320-7063932?sABC=6202qsp7%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355527 ~DrGnu-Hard-Rock-II~ #Heavy-Metal
+http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Metal~ #Heavy-Metal
+https://streaming.exclusive.radio/er-app/ledzeppelin/icecast.audio ~Exclusively-Led-Zeppelin~ #Heavy-Metal
+http://crucialvelocity.ca/crucial128.m3u ~Crucial-Velocity-Radio~ #Heavy-Metal
+https://radio.veracruzstereo.com:20000/stream ~Veracruz-Stereo-Colombia~ #Heavy-Metal
+https://wackenradio-high.rautemusik.fm/?ref=radiobrowser ~_WACKENRADIO_-by-rautemusik-(rm.fm)~ #Heavy-Metal
+http://streams.radiobob.de/progrock/mp3-192/mediaplayer/ ~DrGnu-Prog-Rock-Classics~ #Heavy-Metal
+https://streaming.exclusive.radio/er/deeppurple/icecast.audio ~Exclusively-Deep-Purple~ #Heavy-Metal
+http://streams.radiobob.de/bob-national/mp3-192/mediaplayer ~RADIO-BOB!-Livestream~ #Heavy-Metal
+http://mp3channels.webradio.rockantenne.de/heavy-metal.aac ~ROCKANTENNE-Heavy-Metal-(64-kbps-AAC)~ #Heavy-Metal
+https://d2dhhyxwmf9o99.cloudfront.net/lametro.m3u8 ~Radio-La-Metro-88.5~ #Heavy-Metal
+http://streams.radiobob.de/bob-wacken/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Wacken-Nonstop-(192kbit)~ #Heavy-Metal
+https://stream.rockantenne.de/heavy-metal/stream/aacp ~Rock-Antenne-Heavy-Metal~ #Heavy-Metal
+http://eu4.fastcast4u.com:5248/;stream.mp3 ~Stone-Radio~ #Heavy-Metal
+http://79.120.77.11:8000/melodicdeath.m3u ~Radio-Caprice-Melodic-Death-Metal~ #Heavy-Metal
+https://0n-heavymetal.radionetz.de/0n-heavymetal.aac ~-0-N-Heavy-Metal-on-Radio~ #Heavy-Metal
+http://crucialvelocity.ca/blown128.m3u ~Blown~ #Heavy-Metal
+https://12punks-high.rautemusik.fm/?ref=radiobrowser ~_12PUNKS.FM_-by-rautemusik-(rm.fm)~ #Heavy-Metal
+http://213.141.131.10:8000/symphopower.m3u ~Radio-Caprice-Symphonic-Power-Metal~ #Heavy-Metal
+http://www.heavymetalradio.ro/listen.pls ~Heavy-Metal-Radio~ #Heavy-Metal
+https://streaming.exclusive.radio/er/metallica/icecast.audio ~Exclusively-Metallica~ #Heavy-Metal
+https://crystalout.surfernetwork.com:8001/WSOU_MP3 ~WSOU-89.5FM-Pirate-Radio~ #Heavy-Metal
+https://rock-high.rautemusik.fm/?ref=radiobrowser ~_ROCK_-by-rautemusik~ #Heavy-Metal
+https://streaming.exclusive.radio/er-app/ledzeppelinhits/icecast.audio ~Exclusively-Led-Zeppelin-Only-Hits~ #Heavy-Metal
+http://sc6.shoutcaststreaming.us:8004/ ~Bear-Metal-Radio~ #Heavy-Metal
+http://rosetta.shoutca.st:8524/ ~PureRock.US-America's-Pure-Rock~ #Heavy-Metal
+https://radiometalon.com/radio/8000/radio.mp3 ~Radio-Metal-ON-The-Heavy~ #Heavy-Metal
+https://jfm1.hostingradio.ru:14536/metal.mp3 ~rockfm.ru-heavy~ #Heavy-Metal
+https://manager7.streamradio.fr:1435/stream ~Radio-Heavy-Metal~ #Heavy-Metal
+http://streams.radiobob.de/metallica/mp3-192/mediaplayer/ ~DrGnu-Metallica~ #Heavy-Metal
+http://usa17.fastcast4u.com:5784/listen.pls ~ChroniX-Radio-Aggression~ #Heavy-Metal
+http://streams.radiobob.de/bob-hartesaite/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Harte-Saite~ #Heavy-Metal
+https://neos.win:48282/stream ~METAL-ZONE~ #Heavy-Metal
+https://securestream.us/radio/8050/radio.mp3 ~Rock-FM-105.5~ #Heavy-Metal
+http://andromeda.shoutca.st:9254/stream ~Hard-Rock-Hell~ #Heavy-Metal
+https://radio.metal-invasion.fr/radio/8000/stream96 ~Metal-Invasion-Radio~ #Heavy-Metal
+https://hardradio.com/streaming/hardradio.asx ~Hard-radio~ #Heavy-Metal
+https://cast2.my-control-panel.com/proxy/vladas/stream ~Rock-radio~ #Heavy-Metal
+http://streams.radiobob.de/bob-metal/aac-64/mediaplayer ~RadioBOB-Metal-(64-kbps-AAC)~ #Heavy-Metal
+http://79.111.14.76:8000/heavymetal.m3u ~Radio-Caprice-Heavy-Metal~ #Heavy-Metal
+https://ais-sa2.cdnstream1.com/1987_128.mp3 ~The-METAL-MIXX~ #Heavy-Metal
+http://streams.radiobob.de/metallica/aac-64/mediaplayer/ ~RadioBOB-Metallica-(64-kbps-AAC)~ #Heavy-Metal
+https://stream.radiofrance.fr/fipmetal/fipmetal_hifi.m3u8?id=radiofrance ~FIP-Metal~ #Heavy-Metal
+http://79.111.14.76:8000/vikingmetal.m3u ~Radio-Caprice-Viking-Metal~ #Heavy-Metal
+http://stream-bg-01.radiotangra.com:8000/Tangra-high ~Tangra~ #Heavy-Metal
+http://streams.radiobob.de/metalcore/mp3-192/mediaplayer ~DrGnu-Metalcore-1~ #Heavy-Metal
+https://stream-51.zeno.fm/6nbz7p2w908uv ~Monsters-of-Rock-USSR~ #Heavy-Metal
