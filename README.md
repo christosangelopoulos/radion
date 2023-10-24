@@ -102,7 +102,7 @@ If, however, you decide to proceed without notifications (perhaps because the us
 
 ![launcher](screenshots/launcher.png)
 
-With notifications toggled off, `blank ` naming protocol defaults to `epoch`. Same thing happens to `icy`, when there is no title available with notifications toggled off.
+With notifications toggled off, `blank` naming protocol defaults to `epoch`. Same thing happens to `icy`, when there is no title available with notifications toggled off.
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 
