@@ -66,15 +66,6 @@ It is up to the user to select one of the above alternatives, or follow any othe
 Through the `Preferences'   option, the user will be able to define audio file saving destination directory, configure/toggle recording notification dimensions position and duration, output file format and naming protocol. 
 
 
-
-
-
-
-
-
-
-
-
 ---
 ## Configuring radion (Preferences option)
 
@@ -106,6 +97,10 @@ The following values are about notifications using `yad`.
 It is advisable **not** to disable yad notifications, as it would be challenging to keep in mind if the script is running or not.
 
 **Keeping the script recording indefinetely could have comicotragical repercussions**.
+
+If, however, you decide to proceed without notifications (perhaps because the user can't / won't install `yad`), it is advisable to **always run the script in a terminal and never headless**, regardeless whether the launcher is a keybind, desktop or panel launcher. Furthermore, this way the script will run flawlessly and without any need for *tinkering*, if you configure the **Rec name protocol** to `date `, or `epoch`.
+
+![launcher](screenshots/launcher.png)
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 
