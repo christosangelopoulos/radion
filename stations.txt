@@ -90,7 +90,7 @@ https://stream.zeno.fm/qpn8mkt8c4duv ~Anime-Para-Ti~ #Anime
 https://radio.stereoanime.net/listen/stereoanime/128 ~stereoanime~ #Anime
 https://stream.gensokyoradio.net/GensokyoRadio-enhanced.m3u ~Gensokyo-Radio~ #Anime
 https://relay0.r-a-d.io/main.mp3 ~R/a/dio~ #Anime
-http://pool.anison.fm:9000/AniSonFM(320)? ~Anison动漫音乐台~ #Anime
+http://pool.anison.fm:9000/AniSonFM(320)? ~Anison~ #Anime
 http://yumicoradio.net:8000/stream ~Yumi-Co.-Radio~ #Anime
 http://radio.animenexus.mx:8000/animenexus ~Radio-Anime-Nexus~ #Anime
 https://vocaloid.radioca.st/stream ~Vocaloid-Radio-(320kbps)~ #Anime
@@ -98,7 +98,7 @@ http://91.232.4.33:7028/; ~Radio-Anime24~ #Anime
 http://stream.laut.fm/animklatu ~ЯН-ФМ-Anime~ #Anime
 https://kawaii-music.stream.laut.fm/kawaii-music ~Kawaii-Music~ #Anime
 https://laradiossl.online:8004/stream ~Radio-Otaku's-Dream~ #Anime
-https://stream.gensokyoradio.net/3 ~幻想乡电台Gensokyo-Radio-3~ #Anime
+https://stream.gensokyoradio.net/3 ~Gensokyo-Radio-3~ #Anime
 https://streams.radio.co/s5ff57669c/listen.m3u ~Doujinstyle-Radio~ #Anime
 https://stream.zenolive.com/xwa8ckz7mzzuv ~AnimeNfo-Radio~ #Anime
 http://kathy.torontocast.com:2880/listen.pls?sid=1 ~Otaku-MusicRadio~ #Anime
@@ -106,8 +106,8 @@ http://usa2.fastcast4u.com:3684/; ~Greek-Otaku-Radio~ #Anime
 https://stream.laut.fm/animklatu ~Radio-AnimKLATU~ #Anime
 https://listen.moe/opus ~LISTEN.moe-Jpop-(Opus)~ #Anime
 https://kuronegai.radioca.st/stream ~Radio-Doki~ #Anime
-https://stream.gensokyoradio.net/1 ~幻想乡电台Gensokyo-Radio-1~ #Anime
-http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8? ~超！A&G+~ #Anime
+https://stream.gensokyoradio.net/1 ~Gensokyo-Radio-1~ #Anime
+http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8? ~A&G+~ #Anime
 https://smuglo.li/stream.m3u ~Smuglo.li-r/a/dio~ #Anime
 http://radio.otakunopodcast.com:8000/otakunoradio ~Otaku-no-Radio~ #Anime
 http://5.9.2.139:8000/any-anime.ru ~Radio-Nami~ #Anime
@@ -119,4 +119,4 @@ https://cast.animu.com.br:9079/stream ~Rádio-Animu-[320-kbps]~ #Anime
 https://www.edenofthewest.com/public/eden-radio/playlist.pls ~Eden-Radio~ #Anime
 https://stream-mixtape-geo.ntslive.net/mixtape36 ~Otaku- -NTS~ #Anime
 https://yggdrasilradio.net/yggdrasilradio_mp3_128kbps.pls ~Yggdrasil-Radio~ #Anime
-https://stream.gensokyoradio.net/2 ~幻想乡电台Gensokyo-Radio-2~ #Anime
+https://stream.gensokyoradio.net/2 ~Gensokyo-Radio-2~ #Anime
