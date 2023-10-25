@@ -30,7 +30,7 @@ function toggle_on ()
 
 function toggle_off ()
 {
-	killall rec
+	kill $REC_PID
 	if [[ $YAD_TOGGLE == "yes" ]];then killall yad;fi
 }
 
