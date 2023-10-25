@@ -116,7 +116,7 @@ https://radio.yukinu.com/play.m3u ~Radio-Yukinu~ #Anime
 https://radio.wapchan.org/wapfm ~Wap-FM~ #Anime
 https://cast.animu.com.br:9079/stream ~Rádio-Animu-[320-kbps]~ #Anime
 https://www.edenofthewest.com/public/eden-radio/playlist.pls ~Eden-Radio~ #Anime
-https://stream-mixtape-geo.ntslive.net/mixtape36 ~Otaku- -NTS~ #Anime
+https://stream-mixtape-geo.ntslive.net/mixtape36 ~Otaku-NTS~ #Anime
 https://yggdrasilradio.net/yggdrasilradio_mp3_128kbps.pls ~Yggdrasil-Radio~ #Anime
 https://stream.gensokyoradio.net/2 ~Gensokyo-Radio-2~ #Anime
 
@@ -157,14 +157,13 @@ http://streams.radiobob.de/bob-metal/mp3-192/mediaplayer ~DrGnu-Metal-1~ #New-Wa
 http://streams.radiobob.de/gothic/mp3-192/mediaplayer ~DrGnu-Gothic~ #New-Wave
 https://gemradionw.radioca.st/;stream.nsv ~Gem-Radio-New-Wave~ #New-Wave
 http://stream.laut.fm/alternativeworld ~Alternativeworld~ #New-Wave
-https://streams.radiobob.de/70errock/mp3-192/streams.radiobob.de/ ~RADIO-BOB-70er-Rock-[mp3- -192-kbps]~ #New-Wave
+https://streams.radiobob.de/70errock/mp3-192/streams.radiobob.de/ ~RADIO-BOB-70er-Rock~ #New-Wave
 http://stream.laut.fm/electrozombies ~ElectroZombies~ #New-Wave
 http://stream.laut.fm/wavebreaker ~Wavebreaker~ #New-Wave
 http://ec4.yesstreaming.net:2180/ ~Sfliny-Alternative-80's-~ #New-Wave
 https://maggie.torontocast.com:9028/stream ~Alternative-Rock-Variety-@-MEGASHUFFLE.com~ #New-Wave
 http://streams.radiobob.de/bob-90srock/mp3-192/mediaplayer ~DrGnu-90th-Rock~ #New-Wave
 https://ais-sa3.cdnstream1.com/2606_64.aac ~BAGeL-Radio~ #New-Wave
-https://streams.radiobob.de/70errock/aac-64/streams.radiobob.de/ ~RADIO-BOB-70er-Rock-[aac- -64-kbps]~ #New-Wave
 http://streams.radiobob.de/bob-hartesaite/mp3-192/mediaplayer ~DrGnu-Hard-Side~ #New-Wave
 http://stream.laut.fm/dark-sound-united ~laut.fm-Dark-Sound-United~ #New-Wave
 https://streaming.exclusive.radio/er/INXS/icecast.audio ~Exclusively-INXS~ #New-Wave
@@ -189,7 +188,6 @@ http://streams.radiobob.de/bob-national/mp3-192/mediaplayer ~DrGnu-BOB's-Livestr
 https://fluxfm.streamabc.net/flx-event04-mp3-320-5268754?sABC=6202r047%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355655 ~DrGnu-X-Mas-Rock-II~ #New-Wave
 http://here4ears.ddns.net/ ~here4ears~ #New-Wave
 http://hydra.cdnstream.com/1552_128?listenerId=874e5aaea897e6a11bc60184f95f9946&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689285807 ~Dare-FM~ #New-Wave
--JC" ~"UNIVERSAL-y-LA-OCTAVA-(Guadalajara)-700-AM-XEDKR-AM-Grupo-Radio-Centro-Guadalajara~ #New-Wave
 http://bigrradio.cdnstream1.com/5208_128 ~Big-R-Radio-The-Wave~ #New-Wave
 http://wera.broadcasttool.stream/stream ~WERA-96.7~ #New-Wave
 
@@ -212,7 +210,7 @@ http://cdn.nrjaudio.fm/audio1/fr/30401/aac_64.mp3 ~Rire-et-Chansons~ #Rock
 http://listen.cdnstream.com/hrhradio/1521_128.m3u ~Hard-Rock-Heaven~ #Rock
 http://provisioning.streamtheworld.com/pls/VIRGIN_RADIO.pls ~Virgin-Radio-Türkiye~ #Rock
 https://webradio.tda.dz/Jeunesse_64K.mp3 ~JiL-fm-HD~ #Rock
-https://playerservices.streamtheworld.com/api/livestream-redirect/XHMFMAAC_SC.aac ~88.9-Noticias-88.9-FM-XHM-FM-Grupo-ACIR-Ciudad-de-México~ #Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/XHMFMAAC_SC.aac ~88.9-Noticias-88.9-FM-XHM-FM-Grupo-ACIR-~ #Rock
 http://icecast.unitedradio.it/Virgin.mp3 ~Virgin-Radio-Italia~ #Rock
 http://ice.abradio.cz/rockradio128.mp3 ~Radio-ROCK~ #Rock
 https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8 ~Power-POP~ #Rock
@@ -221,17 +219,16 @@ http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlo
 https://25283.live.streamtheworld.com/RADIO538.mp3 ~Radio-538~ #Rock
 https://n-4-2.dcs.redcdn.pl/sc/o2/Eurozet/live/antyradio.livx?audio=5 ~Antyradio~ #Rock
 http://streaming.radio.rtl2.fr/rtl2-1-44-128 ~RTL2~ #Rock
-https://somafm.com/indiepop130.pls ~SomaFM-Indie-Pop-Rocks!~ #Rock
 https://dc4.serverse.com/proxy/pearlfm/stream/1/ ~107.9-Pearl-Fm~ #Rock
-https://playerservices.streamtheworld.com/api/livestream-redirect/XEFRAMAAC.aac ~Radio-Felicidad-1180-AM-XEFR-AM-Grupo-ACIR-Ciudad-de-México~ #Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/XEFRAMAAC.aac ~Radio-Felicidad-1180-AM-XEFR-AM-Grupo-ACIR-~ #Rock
 http://rock.volna.top/RusRock ~Русский-Рок-Russian-Rock~ #Rock
 http://stream.radioparadise.com/rock-320 ~Radio-Paradise-Rock-Mix~ #Rock
 https://stream.radio.co/sbb4e6ffc8/listen.m3u ~88.5-Super-Fm~ #Rock
 https://live.wostreaming.net/manifest/townsquare-kftefmaac-ibc3 ~Classic-Rock-105.1~ #Rock
-http://ice3.somafm.com/poptron-128-mp3 ~SomaFM-PopTron~ #Rock
+//http://ice3.somafm.com/poptron-128-mp3 ~SomaFM-PopTron~ #Rock
 https://0n-classicrock.radionetz.de/0n-classicrock.mp3 ~-0-N-Classic-Rock-on-Radio~ #Rock
 https://streamer.eagrpservices.com/audio/medradio.mp3 ~Med-Radio~ #Rock
-https://cpliv3.onliv3.com/stream/radiozeta ~Z-Rock-&-Pop~ #Rock
+//https://cpliv3.onliv3.com/stream/radiozeta ~Z-Rock-&-Pop~ #Rock
 http://webradio.tda.dz:8001/ElBahdja_64K.mp3 ~el-bahdja-fm~ #Rock
 http://nashe1.hostingradio.ru/ultra-192.mp3 ~Radio-Ultra~ #Rock
 https://giorgia.radiobellissima.it/radio/8210/radio.mp3 ~1-RdMix-Classic-Rock~ #Rock
@@ -256,10 +253,6 @@ http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/ ~RADIO-B
 
 //HEAVY METAL
 
-http://bigrradio.cdnstream1.com/5186_128 ~Big-R-Radio-80s-Metal-FM~ #Heavy-Metal
-http://listen.cdnstream.com/hrhradio/1521_128.m3u ~Hard-Rock-Heaven~ #Heavy-Metal
-http://mp3channels.webradio.rockantenne.de/heavy-metal ~Rock-Antenne-Heavy-Metal~ #Heavy-Metal
-http://icecast2.play.cz/radiobeat128.mp3 ~Radio-Beat~ #Heavy-Metal
 http://46.4.184.212:8000/; ~Metallica-&-Iron-Maiden-ONLY~ #Heavy-Metal
 http://fm02-ice.stream.khz.se/fm02_mp3 ~Bandit-Rock~ #Heavy-Metal
 https://giorgia.radiobellissima.it:8110/radio.mp3 ~100-GREATEST-HEAVY-METAL~ #Heavy-Metal
@@ -269,7 +262,6 @@ https://streaming.exclusive.radio/er/blacksabbath/icecast.audio ~Exclusive-Radio
 https://streaming.exclusive.radio/er/ironmaiden/icecast.audio ~Exclusively-Iron-Maiden~ #Heavy-Metal
 http://playerservices.streamtheworld.com/pls/SAM07AAC286.pls ~Rock-Radio-Online-Mexico~ #Heavy-Metal
 https://maximum80.hostingradio.ru/max8096.aacp ~Radio-Maximum-Heavy-80s~ #Heavy-Metal
-https://fluxfm.streamabc.net/flx-hardrock-mp3-320-7063932?sABC=6202qsp7%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355527 ~DrGnu-Hard-Rock-II~ #Heavy-Metal
 http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Metal~ #Heavy-Metal
 https://streaming.exclusive.radio/er-app/ledzeppelin/icecast.audio ~Exclusively-Led-Zeppelin~ #Heavy-Metal
 http://crucialvelocity.ca/crucial128.m3u ~Crucial-Velocity-Radio~ #Heavy-Metal
@@ -277,7 +269,6 @@ https://radio.veracruzstereo.com:20000/stream ~Veracruz-Stereo-Colombia~ #Heavy-
 https://wackenradio-high.rautemusik.fm/?ref=radiobrowser ~_WACKENRADIO_-by-rautemusik-(rm.fm)~ #Heavy-Metal
 http://streams.radiobob.de/progrock/mp3-192/mediaplayer/ ~DrGnu-Prog-Rock-Classics~ #Heavy-Metal
 https://streaming.exclusive.radio/er/deeppurple/icecast.audio ~Exclusively-Deep-Purple~ #Heavy-Metal
-http://streams.radiobob.de/bob-national/mp3-192/mediaplayer ~RADIO-BOB!-Livestream~ #Heavy-Metal
 http://mp3channels.webradio.rockantenne.de/heavy-metal.aac ~ROCKANTENNE-Heavy-Metal-(64-kbps-AAC)~ #Heavy-Metal
 https://d2dhhyxwmf9o99.cloudfront.net/lametro.m3u8 ~Radio-La-Metro-88.5~ #Heavy-Metal
 http://streams.radiobob.de/bob-wacken/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Wacken-Nonstop-(192kbit)~ #Heavy-Metal
@@ -298,7 +289,6 @@ http://rosetta.shoutca.st:8524/ ~PureRock.US-America's-Pure-Rock~ #Heavy-Metal
 https://radiometalon.com/radio/8000/radio.mp3 ~Radio-Metal-ON-The-Heavy~ #Heavy-Metal
 https://jfm1.hostingradio.ru:14536/metal.mp3 ~rockfm.ru-heavy~ #Heavy-Metal
 https://manager7.streamradio.fr:1435/stream ~Radio-Heavy-Metal~ #Heavy-Metal
-http://streams.radiobob.de/metallica/mp3-192/mediaplayer/ ~DrGnu-Metallica~ #Heavy-Metal
 http://usa17.fastcast4u.com:5784/listen.pls ~ChroniX-Radio-Aggression~ #Heavy-Metal
 http://streams.radiobob.de/bob-hartesaite/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-BOBs-Harte-Saite~ #Heavy-Metal
 https://neos.win:48282/stream ~METAL-ZONE~ #Heavy-Metal
@@ -314,5 +304,530 @@ http://streams.radiobob.de/metallica/aac-64/mediaplayer/ ~RadioBOB-Metallica-(64
 https://stream.radiofrance.fr/fipmetal/fipmetal_hifi.m3u8?id=radiofrance ~FIP-Metal~ #Heavy-Metal
 http://79.111.14.76:8000/vikingmetal.m3u ~Radio-Caprice-Viking-Metal~ #Heavy-Metal
 http://stream-bg-01.radiotangra.com:8000/Tangra-high ~Tangra~ #Heavy-Metal
-http://streams.radiobob.de/metalcore/mp3-192/mediaplayer ~DrGnu-Metalcore-1~ #Heavy-Metal
 https://stream-51.zeno.fm/6nbz7p2w908uv ~Monsters-of-Rock-USSR~ #Heavy-Metal
+
+// BLUES
+
+https://ghana.ghanalisten.com:2200/stream.mp3 ~Ghana-Radio~ #Blues
+https://jenny.torontocast.com:2000/stream/amississippiblues ~A-MISSISSIPPI-BLUES~ #Blues
+http://stream.laut.fm/bluesrock ~Blues-&-Rock-Radio~ #Blues
+http://strm112.1.fm/blues_mobile_mp3 ~1.FM-Blues-Radio~ #Blues
+http://edge3.peta.live365.net/b76353_128mp3 ~Houston-Blues-Radio~ #Blues
+http://live.str3am.com:2240/live ~WVPE-HD3-Blues~ #Blues
+http://hermitage.hostingradio.ru/hermitage128.mp3 ~Радио-Эрмитаж~ #Blues
+http://streaming.exclusive.radio/er/elvispresley/icecast.audio ~Exclusively-Elvis-Presley~ #Blues
+http://servidor32.brlogic.com:8056/live ~Route-66-Soundtrack~ #Blues
+https://onyamenipa.ghanalisten.com:3200/stream.mp3 ~Onyame-Nipa-Radio~ #Blues
+https://uk1.streamingpulse.com/ssl/grollooradio ~Grolloo-Radio~ #Blues
+http://streaming.live365.com/b77280_128mp3 ~Aardvark-Blues~ #Blues
+https://mc-blues.hostingradio.ru/blues96.aacp ~Радио-Монте-Карло-Wonderful-Blues~ #Blues
+http://192.111.140.11:8272/live ~Rockin'-Rhythm-&-Blues-Radio~ #Blues
+https://streaming.radio.co/sf8db342c1/listen ~Blues-and-Roots-Radio~ #Blues
+https://thassos.cdnstream.com:9950/stream ~Radio-Free-Americana~ #Blues
+http://193.0.98.66:8005/listen.pls ~Akademickie-Radio-Kampus~ #Blues
+http://star.jointil.net/proxy/jrn_blues?mp=/stream ~Joint-Radio-Blues-Rock~ #Blues
+http://streams.radiobob.de/bob-classicrock/mp3-192/mediaplayer ~DrGnu-Classic-Rock~ #Blues
+https://listen.radioking.com/radio/10713/stream/224413 ~Gritty-Rock-Radio~ #Blues
+http://equinox.shoutca.st:8788/; ~All-Blues-Radio~ #Blues
+https://streaming.exclusive.radio/er/santana/icecast.audio ~Exclusively-Santana~ #Blues
+http://213.141.131.10:8004/louisianablues ~Louisiana/Swamp/New-Orleans-Blues-Radio-Caprice~ #Blues
+https://icy.unitedradio.it/VirginSpecialEvent.mp3 ~Virgin-Radio-Rockstar:-Rolling-Stones~ #Blues
+https://streaming.exclusive.radio/er/ericclapton/icecast.audio ~Exclusively-Eric-Clapton~ #Blues
+http://ice03.fluidstream.net/mjr.aac ~Musica-Jazz-Radio~ #Blues
+http://tess.fast-serv.com:8570/ ~The-1920s-Radio-Network-(MP3)~ #Blues
+http://79.111.14.76:8000/chicagoblues ~Radio-Caprice-Chicago-blues~ #Blues
+https://scdn.nrjaudio.fm/adwz1/fr/30639/aac_64.mp3 ~Nostalgie-Blues~ #Blues
+http://www.star104.net/stream/oldies.pls ~Radiostorm-Oldies-104~ #Blues
+https://streaming.exclusive.radio/er/fleetwoodmac/icecast.audio ~Exclusively-Fleetwood-Mac~ #Blues
+https://giorgia.radiobellissima.it:8090/radio.mp3 ~RDMIX-RELAXING-BLUES~ #Blues
+http://www.181.fm/stream/pls/181-blues.pls ~181.FM-True-Blues~ #Blues
+http://usa14.fastcast4u.com:5192/; ~GGFM-90.1-Discovery-Bay~ #Blues
+https://samcloud.spacial.com/api/listen?sid=93462&m=sc&rid=168006 ~Pinguin-Blues~ #Blues
+https://radio.streemlion.com:3715/stream ~Arctic-Outpost-Radio~ #Blues
+https://radiostream.neotel.mk/justmusicradio ~Just-Music-Radio~ #Blues
+http://79.120.39.202:9081/ ~Radio-Caprice-Harmonica-Blues~ #Blues
+https://solid24.streamupsolutions.com/proxy/nilxzqeg?mp=/stream ~Bar-Legend-Radio~ #Blues
+http://ais-sa2.cdnstream1.com/1992_128.mp3 ~Blues-Music-Fan-Radio~ #Blues
+https://maggie.torontocast.com:2020/stream/vibrazionirockradio ~70-80-90-Vibrazioni-Rock-Radio~ #Blues
+http://79.111.14.76:8004/texasblues ~Texas-Blues-Radio-Caprice~ #Blues
+https://edge-bauerall-01-gos2.sharp-stream.com/jazzhigh.aac ~Jazz-FM-UK~ #Blues
+https://edge2.audioxi.com/NOVA ~Nova-Classic-Rock~ #Blues
+https://s4.radio.co/scf2280c01/listen ~Central-Coast-Radio.com~ #Blues
+https://ais-sa5.cdnstream1.com/b77280_128mp3 ~Aardvark-Blues-FM~ #Blues
+https://live.soulconnexionradio.com:1590/stream ~Soulconnexion-Radio-High-Bitrate~ #Blues
+
+//POP
+
+http://ep256.hostingradio.ru:8052/europaplus256.mp3 ~Europa-Plus~ #Pop
+https://liveradio.swr.de/sw282p3/swr3/play.mp3 ~SWR3~ #Pop
+http://46.20.3.201/ ~Kral-Pop~ #Pop
+http://icecast2.play.cz:8000/kiss128aac ~Kiss-98-FM~ #Pop
+https://navairan.com/;stream.nsv ~-Radio-Navahang~ #Pop
+http://retroserver.streamr.ru:8043/retro256.mp3 ~Ретро-FM~ #Pop
+https://ph-icecast-win.eradioportal.com:8443/energyfm_manila ~Energy-FM-Manila~ #Pop
+https://24933.live.streamtheworld.com/CRP_NQ_SC? ~RADIO-NUEVA-Q-107.1-FM-(PERU)~ #Pop
+http://icecast.unitedradio.it/Radio105.mp3 ~Radio-105-Network~ #Pop
+http://media-ice.musicradio.com/CapitalMP3 ~Capital-FM-London~ #Pop
+https://icecast-radiovanya.cdnvideo.ru/radiovanya ~РАДИО-ВАНЯ~ #Pop
+http://listen.rusongs.ru/ru-mp3-128 ~Радио-Русские-Песни~ #Pop
+http://orf-live.ors-shoutcast.at/oe3-q1a ~ORF-Hitradio-Ö3~ #Pop
+http://ic6.101.ru:8000/stream/air/aac/64/202 ~Comedy-Radio-new-link~ #Pop
+https://drive.uber.radio/uber/bollywoodnow/icecast.audio ~Mirchi-Top-20~ #Pop
+http://eu6.fastcast4u.com:5306/; ~Clouds-FM~ #Pop
+https://media-ssl.musicradio.com/Heart80sMP3 ~Heart-80s~ #Pop
+http://stream1.rds.it:8000/rds ~RDS-Radio-Dimensione-Suono~ #Pop
+https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3 ~LOS-40-Principales-España~ #Pop
+http://streams.90s90s.de/pop/mp3-192/streams.90s90s.de/ ~90s90s-Hits~ #Pop
+https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3 ~KISS-FM~ #Pop
+https://giorgia.radiobellissima.it:8200/radio.mp3 ~ #Pop
+http://playerservices.streamtheworld.com/m3u/LA_KALLE.m3u ~La-Kalle~ #Pop
+http://stream.funradio.sk:8000/fun128.mp3 ~Fun-Radio~ #Pop
+https://somafm.com/indiepop130.pls ~SomaFM-Indie-Pop-Rocks!~ #Pop
+http://195.150.20.9/RMFFM48 ~RMF-FM~ #Pop
+https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323 ~EuroDance-90-radio~ #Pop
+http://89.238.227.6:8006/; ~Radio-Romania-Actualități~ #Pop
+https://s3.radio.co/s9cb11828c/listen ~محطة-مصر~ #Pop
+https://www.ndr.de/resources/metadaten/audio_ssl/m3u/ndr2.m3u ~NDR-2~ #Pop
+http://stream.slam.nl/slam ~SLAM!~ #Pop
+http://stream.srg-ssr.ch/m/drs3/mp3_128 ~SRF-3~ #Pop
+https://radio12.pro-fhi.net/listen/whmnrlow/stream ~Hits-1-Algérie~ #Pop
+http://r.pgbu.ir:8000/live ~Radio-persian~ #Pop
+http://novazz.ice.infomaniak.ch/novazz-128.mp3 ~Radio-Nova~ #Pop
+http://streaming.radio.rtl.fr/rtl-1-44-128 ~RTL-France~ #Pop
+https://mixtapes.superstreams.de/ ~_BEST-REMIXES_-Your-HipHop-RnB-Latin-House-EDM-Radio~ #Pop
+https://us-b4-p-e-pb13-audio.cdn.mdstrm.com/live-audio-aw/5fada56fe4e09508207a7951? ~RADIO-LA-MEGA-96.7-FM-(PERU)~ #Pop
+http://stream.zeno.fm/aye8zg6wm8quv ~Rádio-Saudades~ #Pop
+http://livex.radiopopolare.it/radiopop ~Radio-Popolare~ #Pop
+
+//RAP
+
+http://22193.live.streamtheworld.com/UKHOZIFMAAC.aac ~uKhozi-FM~ #Rap
+http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/ ~90s90s-HipHop-&-Rap~ #Rap
+http://streaming5.elitecomunicacion.es:8082/live.mp3 ~Chocolate-FM~ #Rap
+https://90s-high.rautemusik.fm/?ref=radiobrowser ~_90S_-by-rautemusik-(rm.fm)~ #Rap
+https://trapradio.streamingmedia.it/play ~TRAP-RADIO-TRAP.radio~ #Rap
+https://s32.radiolize.com/radio/8030/radio.mp3?1595692825 ~LVA-Radio~ #Rap
+http://radios.vpn.sapo.pt/AO/radio1.mp3 ~Radio-Escola-88.5-FM~ #Rap
+http://n0a.radiojar.com/tkeve70hqd0uv?rj-ttl=5&rj-tok=AAABeL0yWmwArvLu3hf9O3iTGQ ~Love-Trap~ #Rap
+http://ice55.securenetsystems.net/DASH90 ~Dash-HipHop-X~ #Rap
+https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid ~Radio-Fritz~ #Rap
+http://ice.stream101.com:9016/stream ~Today's-Hot-Country~ #Rap
+https://bass-high.rautemusik.fm/?ref=radiobrowser ~_BASS_-by-rautemusik-(rm.fm)~ #Rap
+http://icecast.dropthebass.ru:8000/stream ~DROP-THE-BASS~ #Rap
+https://ice.creacast.com/jowradio-jow_rap ~جو-راب~ #Rap
+http://stream02.iloveradio.de/iloveradio13.mp3?hadpreroll ~i-love-radio-hip-hop-turnup~ #Rap
+https://converter.titsrp.com/thetrap/ ~Tits.FM-The-Trap-RnB-&-Hip-Hop~ #Rap
+https://stream.open.fm/23?type=.aac&user=800037879065&player_group=WWW ~OpenFM-Hip-Hop-USA~ #Rap
+https://deutschrap-high.rautemusik.fm/?ref=radiobrowser ~_DEUTSCHRAP_-by-rautemusik-(rm.fm)~ #Rap
+https://listen.housetime.fm/aac-hd.pls ~HouseTime.FM~ #Rap
+http://s1.voscast.com:8580/; ~103.7-Da-Beat~ #Rap
+http://stream.zeno.fm/sp1x3mye474tv ~Guarida-Hip-Hop~ #Rap
+http://radiorecord.hostingradio.ru/phonk96.aacp ~Radio-Record-Phonk~ #Rap
+http://ice55.securenetsystems.net/DASH11 ~1580-HipHop-on-Dash~ #Rap
+https://stream.open.fm/354?type=.aac&user=800037879065&player_group=WWW ~OpenFM-Trap-USA~ #Rap
+http://icy.unitedradio.it/105RapItalia.mp3 ~Radio-105-Rap-Italia~ #Rap
+http://icecast.unitedradio.it/105Trap.mp3 ~Radio-105-Trap~ #Rap
+http://streaming5.elitecomunicacion.es:8082/live32.aac ~Chocolate-FM-[calidad-móvil-low-bandwidth]~ #Rap
+https://stream.technolovers.fm/drummnbass?ref=radiobrowser ~Technolovers-DRUM-N-BASS~ #Rap
+http://sc.hot108.com:4000/ ~Hot-108-JAMZ~ #Rap
+http://ais-sa2.cdnstream1.com/1988_128.mp3?NoPreroll=true ~The-Rap-Mixx~ #Rap
+https://somafm.com/fluid.pls ~SomaFM-Fluid~ #Rap
+https://rds3.desdeparaguay.net/movtropicalia/movtropicalia.stream/playlist.m3u8 ~Tropicalia-93.9FM~ #Rap
+https://zaycevfm.cdnvideo.ru/ZaycevFM_rap_256.mp3 ~Zaycev-FM-Rap~ #Rap
+http://www.appradio.app:8010//live ~105-FM-SP~ #Rap
+http://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64? ~Kiss-FM-Oldschool-Hiphop~ #Rap
+http://104.167.4.67:8030/; ~Detroit-Rap-Radio~ #Rap
+https://www.partyviberadio.com:8061/;listen.pls?sid=1 ~Partyvibe-Drum-and-Bass~ #Rap
+https://icecast.radiofrance.fr/mouvrapus-hifi.aac ~Mouv'-Rap-US~ #Rap
+https://deutschrap-charts-high.rautemusik.fm/?ref=radiobrowser ~_DEUTSCHRAP-CHARTS_-by-rautemusik-(rm.fm)~ #Rap
+https://icecast.skyrock.net/s/casa_aac_64k ~Skyrock-Casablanca~ #Rap
+https://0n-deutschrap.radionetz.de/0n-deutschrap.mp3 ~-0-N-Deutsch-Rap-on-Radio~ #Rap
+http://ice55.securenetsystems.net/DASH77 ~God's-House-of-HipHop~ #Rap
+http://streams.90s90s.de/hiphop/mp3-128/streams.90s90s.de/ ~90s90s-HipHop-&-Rap~ #Rap
+http://streams.bigfm.de/bigfm-deutschrap-128-aac ~bigFM-Deutsch-Rap~ #Rap
+https://cdn2.cloudrad.io/radioveten/0kgkkzanmueuv/source/listen.m3u ~Radio-Veten~ #Rap
+https://c34.radioboss.fm:18099/stream ~13Radio-~ #Rap
+https://top40-high.rautemusik.fm/?ref=radiobrowser ~_TOP40_-by-rautemusik-(rm.fm)~ #Rap
+https://dfm-dfmtrap.hostingradio.ru/dfmtrap96.aacp ~DFM-Trap~ #Rap
+https://edge07.streamonkey.net/energy-muenchen ~Energy-München~ #Rap
+http://79.120.77.11:8000/rapru ~Russian-Rap-/-Hip-Hop-Caprice-Radio~ #Rap
+https://icecast.radiofrance.fr/mouvrapfr-hifi.aac ~Mouv'-Rap-Français~ #Rap
+https://11ec74e.online-server.cloud/stream ~Hip-Hop-Request~ #Rap
+http://213.141.131.10:8002/oldschoolhiphop ~Radio-Caprice-Old-School-Hip-Hop-/-Rap~ #Rap
+http://stream.laut.fm/deutschrap ~Deutschrap~ #Rap
+https://astreaming.edi.ro:8443/VirginRadio_aac ~Virgin-Radio-Romania~ #Rap
+http://necenzurat.radiotequila.ro:7000/; ~Radio-Tequila-Hip-Hop~ #Rap
+https://giorgia.radiobellissima.it:8320/radio.mp3 ~RDMIX-HOT-100~ #Rap
+
+
+//TRANCE
+
+
+http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/ ~Sunshine-Live~ #Trance
+http://www.discovertrance.com/DiscoverTrance-high.m3u ~DiscoverTranceRadio-(MP3-HQ-stereo-192kBit/s)~ #Trance
+http://strm112.1.fm/atr_mobile_mp3 ~1.FM-Amsterdam-Trance-Radio~ #Trance
+http://94.130.113.214:8000/prog ~Radio-Schizoid-Progressive-Psychedelic-Trance~ #Trance
+http://listen.trancebase.fm/tunein-aac-hd-pls ~TranceBase.FM-AAC-HD-256k~ #Trance
+https://trance-high.rautemusik.fm/?ref=radiobrowser ~_TRANCE_-by-rautemusik-(rm.fm)~ #Trance
+http://20853.live.streamtheworld.com/OWR_INTERNATIONAL.mp3 ~Tomorrowland-One-World-Radio~ #Trance
+https://hirschmilch.de:7001/psytrance.mp3 ~Hirschmilch-Radio-Psytrance~ #Trance
+http://stream.kanefm.com:1037/;stream ~Kane-FM~ #Trance
+http://strm112.1.fm/ambientpsy_mobile_mp3 ~1.FM-Ambient-Psychill~ #Trance
+https://stream.frisky.friskyradio.com/frisky_mp3_high ~Frisky~ #Trance
+http://pulseedm.cdnstream1.com:8124/1373_128.m3u ~PulseEDM-Dance-Music-Radio~ #Trance
+https://club-high.rautemusik.fm/?ref=radiobrowser ~_CLUB_-by-rautemusik-(rm.fm)~ #Trance
+http://stream.zeno.fm/s70bvdgqks8uv ~ElectroDanceWorld-Radio~ #Trance
+https://cast.streams.ovh:2199/tunein/tranceathena.pls ~Trance-Athena~ #Trance
+http://cast.magicstreams.gr:9125/stream ~Psyndora-Chillout~ #Trance
+http://1mix.co.uk/trance/listenh.m3u ~1Mix-Radio-Trance~ #Trance
+http://s3.viastreaming.net:8525/ ~Deep-in-Radio~ #Trance
+http://dancewave.online/dance.ogg ~Dance-Wave!~ #Trance
+http://ice3.somafm.com/thetrip-128-mp3 ~SomaFM-The-Trip~ #Trance
+https://dfm-trance.hostingradio.ru/trance96.aacp ~DFM-Vocal-Trance~ #Trance
+http://strm112.1.fm/psytrance_mobile_mp3 ~1.FM-BOM-Psytrance-Radio~ #Trance
+https://www.ukbassradio.com/stream ~UK-Bass-Radio~ #Trance
+http://94.130.113.214:8000/schizoid ~Radio-Schizoid-Psychedelic-Trance~ #Trance
+http://secure.live-streams.nl/flac.flac ~Intense-Radio-(Flac)~ #Trance
+http://risefm1.stereoplayer.hu:8080/risefm_hq ~Rise-FM~ #Trance
+http://stream.open.fm/7 ~OpenFM-Trance~ #Trance
+http://51.89.148.171:8022/stream/ ~Dance-UK~ #Trance
+https://stream.technolovers.fm/psytrance?ref=radiobrowser ~Technolovers-PSYTRANCE~ #Trance
+http://uk2.internet-radio.com:8024/listen.pls ~DanceRadioUK-Dance-UK~ #Trance
+http://ic1.smcdn.pl/6120-1.mp3 ~ESKA-GORĄCA-100-~ #Trance
+https://cast.iplayradio.net/radio/9500/stream ~Powermix-FM~ #Trance
+http://amoris.sknt.ru/goa.mp3 ~Anima-Amoris-Goa-Psy-Trance~ #Trance
+https://ice4.abradio.cz/dance128.mp3 ~Dance-Club-Radio~ #Trance
+http://strm112.1.fm/trance_mobile_mp3 ~1.FM-Absolute-Trance-(Euro)-Radio~ #Trance
+https://dfm-insomnia.hostingradio.ru/insomnia96.aacp ~DFM-Insomnia~ #Trance
+http://51.89.195.240:8034/stream?type=http&nocache=129242 ~Trancetechnic~ #Trance
+http://stream.newdanceradio.ru/ ~NewDanceRadio~ #Trance
+https://sc.cyberstacja.pl:8000/radio.mp3 ~CYBERStacja~ #Trance
+http://stream.zenolive.com/g1s30spcdxquv ~Café-del-Mar-HD-(unofficial)~ #Trance
+http://play.sas-media.ru/play_256 ~Noise-FM-It's-Your-Lifestyle!~ #Trance
+http://streamer.psyradio.org:8010/;listen.mp3 ~psyradio-*-fm-progressive~ #Trance
+http://s2.radioparty.pl:8025/vocaltrance ~Radioparty.pl-Vocal-Trance~ #Trance
+http://star.jointil.net/proxy/jrn_beat?mp=/stream ~Joint-Radio-Beat~ #Trance
+https://stream.technolovers.fm/vocal-trance?ref=radiobrowser ~Technolovers-VOCAL-TRANCE~ #Trance
+http://79.120.39.202:9031/; ~Radio-Caprice-Vocal-Trance~ #Trance
+https://radio.streemlion.com:2365/stream ~Energy-FM-Non-Stop-Mixes~ #Trance
+http://sunsl.streamabc.net/sunsl-christmas-mp3-192-7547837 ~Sunshine-Live-Psytrance~ #Trance
+http://s45.myradiostream.com:18304/ ~C-Dance-RETRO~ #Trance
+https://goanight.stream.laut.fm/goanight ~Goanight~ #Trance
+https://stream.sunshine-live.de/vocaltrance/mp3-192/stream.sunshine-live.de/play.m3u ~sunshine-live-Vocal-Trance~ #Trance
+http://byblosnights.com:6190/ ~Beirut-Nights-Radio-(AAC)~ #Trance
+http://generationdance.lu/radio/8030/hd ~Generation-Dance-Radio~ #Trance
+
+
+//MEXICAN
+
+
+https://stream.zeno.fm/m5p5sfrywhhvv ~Ke-Buena-Guatemala~ #Mexican
+https://playerservices.streamtheworld.com/api/livestream-redirect/XERCFM_SC ~La-Mejor-97.7-FM-XERC-FM-MVS-Radio-~ #Mexican
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR05_s01AAC.aac ~La-Comadre-Pa-Que-Duela~ #Mexican
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR08_s01AAC.aac ~La-Comadre-Pa-Bailar~ #Mexican
+http://212.83.135.226:7326/ ~La-Rancherita-del-Aire~ #Mexican
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR34_s01AAC.aac ~Llegó-El-Mariachi~ #Mexican
+http://quevivamexico.com/listen.pls ~¡Que-Viva-México!~ #Mexican
+https://s2.mexside.net/8002/stream ~Reactor-(105.7-FM-/-HD1-XHOF)-(IMER)~ #Mexican
+https://s2.mexside.net/8028/stream ~Radio-710--710-AM-XEMP-AM-IMER-~ #Mexican
+https://stream.revma.ihrhls.com/zc6969 ~98.5-El-Patron~ #Mexican
+https://live.wostreaming.net/direct/univision-kondfmaac-imc2 ~La-Jefa-107.5~ #Mexican
+https://crystalout.surfernetwork.com:8001/WLKQ-FM_MP3 ~La-Raza-102.3/107.1~ #Mexican
+
+//INDIE
+
+http://stream.radioparadise.com/aac-128 ~Radio-Paradise-[Main-Mix]~ #Indie
+https://bytefm.cast.addradio.de/bytefm/main/high/stream ~ByteFM-(192k)~ #Indie
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_6music.m3u8 ~BBC-Radio-6-Music~ #Indie
+https://0n-indie.radionetz.de/0n-indie.mp3 ~0-N-Indie-on-Radio~ #Indie
+http://streams.egofm.de/egoFM-hq ~egoFM~ #Indie
+http://stream.srg-ssr.ch/m/couleur3/aacp_96 ~Couleur3~ #Indie
+http://media-the.musicradio.com/RadioXUK ~Radio-X~ #Indie
+https://www.byte.fm/stream/bytefm.m3u ~ByteFM~ #Indie
+https://bestofrockfm.stream.vip/altrock/mp3-256/bestofrock.fm/ ~Best-Of-Rock.FM-Alternative-Rock~ #Indie
+http://msmn.co:8118/;stream ~NME-2-New-&-Upfront-Indie-Alt~ #Indie
+http://live.guerrillaradio.ro:8010/guerrilla.aac ~Radio-Guerrilla~ #Indie
+https://proic1.evspt.com/radar_aac ~RADAR-97.8-FM~ #Indie
+http://ice1.somafm.com/folkfwd-128-aac ~SomaFM-Folk-Forward~ #Indie
+http://stream.laut.fm/deep-house-sounds ~Deep-House-Sounds~ #Indie
+http://www.radiofeeds.net/playlists/bauerflash.pls?station=absoluteradiohigh-aac ~Absolute-Radio~ #Indie
+http://gdsfm.out.airtime.pro:8000/gdsfm_a ~GDS.FM~ #Indie
+https://hkcr.live/audio/index.m3u8 ~Hong-Kong-Community-Radio~ #Indie
+http://pr320.pinguinradio.com/ ~Pinguin-Radio~ #Indie
+http://s2.audiostream.hu:8091/bdpstrock_FLAC ~BDPST-ROCK-Rádió-(Hi-Fi-/-Lossless-/-FLAC)~ #Indie
+http://stream.radio.co/s1cffd7347/listen ~Gangstaville-Radio~ #Indie
+http://206.217.213.236:8360/;stream ~100hitz-Indie~ #Indie
+https://prclive4.listenon.in/Freedom ~Radio-City-Freedom~ #Indie
+http://strm112.1.fm/gorillafm_mobile_mp3 ~1.FM-Gorilla-FM-Radio~ #Indie
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR12_s01AAC.aac ~Alternativa~ #Indie
+http://kathy.torontocast.com:2690/stream ~Indie-X-FM~ #Indie
+https://inter.lannaradio.com/radio/8000/radio.mp3 ~ไทยลานนาเรดิโอ-FM-106.5-จังหวัดตาก~ #Indie
+https://streaming.exclusive.radio/er/rem/icecast.audio ~Exclusively-REM~ #Indie
+https://stream.zeno.fm/pjktyby8dn5tv ~WeRave-Music-Radio-01-Dark-and-Underground~ #Indie
+http://radiosherwood.ice.infomaniak.ch/radiosherwood-96.mp3 ~Radio-Sherwood~ #Indie
+https://radio.radiocafe98.hu/radiocafe98_192k ~radiocafé-98~ #Indie
+http://www.radioparadise.com/m3u/aac-24.m3u ~Radio-Paradise-[Mobile-AAC+-24k]~ #Indie
+https://stream.antiradio.net/radio/8000/mp3 ~Anti-Radio~ #Indie
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio=320000.m3u8 ~BBC-Radio-6-Music~ #Indie
+http://eksenwmp.radyotvonline.com/;stream.mp3 ~Radyo-Eksen-96.2~ #Indie
+http://stream.lesonparisien.com/hi.mp3 ~Le-Son-Parisien~ #Indie
+http://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer ~delta-radio-Indie~ #Indie
+https://streaming.exclusive.radio/er/sting/icecast.audio ~Exclusively-Sting~ #Indie
+http://stream.m945.de/m945-hq ~afk-M94.5-(MP3-HQ-)~ #Indie
+https://stream.radiojar.com/4f89tufzv9duv ~Trión-103.3-HD4-XERFR-FM-Grupo-Fórmula-~ #Indie
+https://listen.radioking.com/radio/293701/stream/340084 ~The-Independent-FM~ #Indie
+
+
+
+//HIPHOP
+
+http://www.181.fm/stream/pls/181-beat.pls ~181.FM-The-Beat-(HipHop/R&B)~ #HipHop
+https://stream.zeno.fm/muzrp86994zuv ~Uganda-DJs~ #HipHop
+http://192.99.41.102:5429/ ~RNB-and-Hip-Hop-Radio~ #HipHop
+http://stream.zeno.fm/pkza99xshkhvv ~MajorFM~ #HipHop
+http://bigrradio.cdnstream1.com/5105_128 ~2000-FM-RnB-&-Hip-Hop~ #HipHop
+https://live.hunter.fm/lofi_high ~Hunter-FM-LOFI~ #HipHop
+http://stream.trace.tv/trace_fm_ci-midfi.aac ~Trace-FM-Côte-d’Ivoire~ #HipHop
+http://s-09.wefunkradio.com:81/wefunk64.mp3 ~WEFUNK-Radio~ #HipHop
+http://icy.unitedradio.it/105HipHopRnB.mp3 ~Radio-105-HipHop-&-RnB~ #HipHop
+https://breakz-high.rautemusik.fm/?ref=radiobrowserinfo ~__BREAKZ.FM__-by-rm.fm-(rautemusik)~ #HipHop
+http://playerservices.streamtheworld.com/pls/FM947AAC.pls ~94.7~ #HipHop
+http://stream.open.fm/24 ~OpenFM-Hip-Hop-PL~ #HipHop
+https://tntradio.hostingradio.ru:8027/hhr128.mp3 ~HIP-HOP-RADIO~ #HipHop
+https://0n-greatesthits.radionetz.de/0n-greatesthits.mp3 ~0-N-Greatest-Hits-on-Radio~ #HipHop
+http://cp.usa8.fastcast4u.com:5195/; ~Boss-FM-Grenada~ #HipHop
+http://radio.yaservers.com:9990/; ~KQ-94.5~ #HipHop
+http://stream.laut.fm/oldschool-hiphop ~OLDSCHOOL-HIPHOP~ #HipHop
+https://solid2.streamupsolutions.com:2199/tunein/mqxncdsf.pls ~LABR-Love-a-Brother-Radio~ #HipHop
+https://streams.rpr1.de/rpr-hiphop-128-mp3 ~RPR1-Old-School-Hip-Hop~ #HipHop
+https://strm.radionula.com/classics ~Radio-Nula~ #HipHop
+http://sc.ipip.cz:8206/;stream ~Color-Music-Radio~ #HipHop
+http://206.189.117.157:8000/stream ~Rinse-FM~ #HipHop
+http://stream.open.fm/84 ~OpenFM-500-Hip-Hop-Hits~ #HipHop
+https://stream.0nlineradio.com/latin?ref=radiobrowser ~0nlineradio-LATIN~ #HipHop
+http://radio.promodj.com:8000/yo-192 ~PromoDJ-Yoo~ #HipHop
+https://stream.0nlineradio.com/remix?ref=radiobrowser ~0nlineradio-REMIX~ #HipHop
+http://www.ilovemusic.de/iloveusonlyrapradio.m3u ~i-love-radio-US-Only-Rap&HipHop-Radio~ #HipHop
+
+
+//FUNK
+
+http://streams.br.de/b5aktuell_2.m3u ~B5-aktuell~ #Funk
+http://streams.br.de/bayern2sued_2.m3u ~Bayern-2-Süd~ #Funk
+https://funkyradio.streamingmedia.it/play.mp3 ~FUNKY-RADIO-Only-Funk-Music-(60's-70's)~ #Funk
+http://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3 ~Radio-Meuh~ #Funk
+https://discofunk.streamingmedia.it/usa ~70s-80s-Disco-Funk-ModernSoul-Boogie~ #Funk
+http://46.28.49.164:7504/stream ~Retro-Soul-Radio~ #Funk
+http://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3 ~Jazz-Radio-Funk~ #Funk
+https://funkyradio.streamingmedia.it/audio.aac ~FUNKY-RADIO-Only-Funk-Music-(60's-&-70's)~ #Funk
+https://ais-sa2.cdnstream1.com/2447_192.mp3 ~_Funky-Corner-Radio-(USA)~ #Funk
+http://stream.zeno.fm/07z9dqmz0uquv ~Funk-Favela~ #Funk
+http://streaming12.hstbr.net:8084/live ~Rádio-Disco-Funk-BR~ #Funk
+https://admin.stream.rinse.fm/proxy/kool/stream ~Kool-FM~ #Funk
+http://ibizaglobalradio.streaming-pro.com:8024/listen.pls ~Ibiza-Global-Radio~ #Funk
+http://ildnb1.dnbradio.com:8000/dnbradio_main.mp3 ~DNBRadio-Main-channel-192k~ #Funk
+https://streams.br.de/bayern1schw_2.m3u ~Bayern-1-Schwaben-(128k-New-Stream-9/2020)~ #Funk
+http://ice55.securenetsystems.net/DASH26 ~70's-on-Dash~ #Funk
+http://158.69.74.203/ ~SwissGroove~ #Funk
+http://stream.afc.fm:8504/;stream.mp3 ~Amsterdam-Funk-Channel~ #Funk
+http://wav.carbonwav.com:1060/stream ~Classic-R&B-Funk-and-Groove-(USA)-320k-mp3~ #Funk
+https://0n-60s.radionetz.de/0n-60s.mp3 ~0-N-60s-on-Radio~ #Funk
+http://channels.dinamo.fm/discotheque-mp3 ~dinamo.fm-discotheque~ #Funk
+http://cdn.nrjaudio.fm/adwz1/fr/30607/mp3_128.mp3 ~Nostalgie-Funk~ #Funk
+http://edge.radiomontecarlo.net/rmcweb025 ~RMC-Disco-Funk~ #Funk
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR14_s01AAC.aac ~Disco-by-Mix~ #Funk
+https://0n-disco.radionetz.de/0n-disco.mp3 ~0-N-Disco-on-Radio~ #Funk
+https://nl1.streamingpulse.com/ssl/flowerpowerradio ~Flower-Power-Radio~ #Funk
+https://stream.wehouseradio.com/stream/3/ ~WeHouseRadio~ #Funk
+http://ice55.securenetsystems.net/DASH36 ~Pure-Soul-with-Issac-Hayes~ #Funk
+https://broadcast.miami/proxy/motown?mp=/stream/; ~Radio-Motown~ #Funk
+https://listen.radioking.com/radio/282820/stream/328621 ~Mutant-Radio~ #Funk
+https://housefusionradiouk.out.airtime.pro/housefusionradiouk_a ~House-Fusion-Radio-(UK)~ #Funk
+https://streamer-uk.rinse.fm:8443/stream ~Rinse-UK~ #Funk
+https://ais-sa2.cdnstream1.com/2447_96.aac ~_Funky-Corner-Radio-(Spain)~ #Funk
+https://gmusto3.radioca.st/stream ~_Radio-Energy-Classic-(Italy)~ #Funk
+http://radio.plaza.one/opus ~Nightwave-Plaza-OPUS-96~ #Funk
+https://stream.wehouseradio.com/stream/2/ ~We-House-Radio-(AAC+-High)~ #Funk
+https://mediaserv38.live-streams.nl:18048/stream ~HouseBeats.fm~ #Funk
+https://streaming.broadcastradio.com:10525/streetsd ~Street-Sounds-Radio~ #Funk
+https://mediagw.e-tiger.net/stream/zc25 ~COOLFM-Funky&Soul~ #Funk
+http://londonsoulradio.out.airtime.pro:8000/londonsoulradio_a ~London-Soul-Radio~ #Funk
+http://stream.laut.fm/54-funk-soul-dance.pls ~54-Funk-Soul-Dance-(laut.fm)~ #Funk
+https://server7.streamserver24.com:8080/proxy/marasalf?mp=/stream ~Dancegroove-Radio~ #Funk
+https://0n-60s.radionetz.de/0n-60s.aac ~0-N-60s-on-Radio~ #Funk
+https://0n-disco.radionetz.de/0n-disco.aac ~0-N-Disco-on-Radio~ #Funk
+http://gene-wr05.ice.infomaniak.ch/gene-wr05.mp3 ~Generations-Funk~ #Funk
+http://www.play4.fr/play4-club.mp3 ~CLASSIC-HITS-RADIO~ #Funk
+http://185.33.22.15:11121/ ~1.FM-Funky-Express-Radio~ #Funk
+https://stream.deevaradio.net:10443/divaradiofunk ~Diva-Radio-Funk-&-Disco-Music-Paradise~ #Funk
+
+
+//ELECTRO
+
+https://tupanel.info:8290/stream?icy=http ~Full-Techno~ #Electro
+http://62.210.105.16:7000/stream ~Deep-House-Radio~ #Electro
+http://somafm.com/spacestation130.pls ~SomaFM-Space-Station-Soma-(AAC)~ #Electro
+https://stream.mixadance.fm/mixadance ~Mixadance-FM~ #Electro
+https://giorgia.radiobellissima.it:8130/radio.mp3 ~100-BEST-IBIZA-DEEP-HOUSE~ #Electro
+http://8bit.fm:8000/live ~8bitFM~ #Electro
+http://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/ ~Sunshine-Live-Techno~ #Electro
+http://audio.97fm.com.br/energia ~Energia-97-FM~ #Electro
+https://pub0202.101.ru:8000/stream/trust/mp3/128/173 ~101.ru-Deep-House~ #Electro
+http://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de ~Sunshine-Live-Die-90er~ #Electro
+http://centova.radios.pt:8401/;listen.pls ~ORBITAL~ #Electro
+https://player.maroc.hits1radio.com/ ~Hits-1-Maroc~ #Electro
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/master_ma.m3u8 ~Radio-M2O~ #Electro
+http://ice.somafm.com/lush-128-mp3 ~SomaFM-Lush~ #Electro
+http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC ~Los-40-Dance~ #Electro
+https://mdstrm.com/audio/5fada553978fe1080e3ac5ea/icecast.audio ~Studio-92-(92.5-FM-Lima)~ #Electro
+https://icecast.protonradio.com/ ~Proton-Radio~ #Electro
+https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR11_s01AAC.aac ~90s-Dance-by-Mix-~ #Electro
+http://cdn.nrjaudio.fm/adwz1/fr/31019/mp3_128.mp3?origine=fluxradios ~NRJ-Hits-Remix~ #Electro
+http://94.75.227.133:7005/ ~Ibiza-Sonica-Radio~ #Electro
+https://stream.musicaldecadence.ru/live ~Musical-Decadence-Radio~ #Electro
+http://stream.uzic.ch:9010/ ~UZIC.CH-::-TECHNO-MINIMAL~ #Electro
+http://online.kissfm.ua/KissFM_Deep_Live ~KissFm-Deep~ #Electro
+https://player.mc.hits1radio.com/ ~Hits1-Algérie~ #Electro
+https://house-high.rautemusik.fm/?ref=radiobrowser ~HOUSE-by-rautemusik-(rm.fm)~ #Electro
+https://listen.radioking.com/radio/39218/stream/76118 ~Equinoxe-Radio~ #Electro
+http://shoutcast.rtvc.gov.co:8010/; ~Radiónica-(HJYM-99.1-Bogotá)-RTVC~ #Electro
+http://playerservices.streamtheworld.com/pls/ECUADORAAC.pls ~Exa-FM-92.5-Ecuador~ #Electro
+https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio ~Pure-Ibiza-Radio~ #Electro
+http://79.120.39.202:9125/ ~Radio-Caprice-Retrowave~ #Electro
+http://station.waveradio.org/soviet.mp3 ~Sovietwave~ #Electro
+http://wma08.fluidstream.net:5010/;stream.aac ~Radio-Ibiza~ #Electro
+https://centova.wlservices.org/proxy/pufepstm?mp=/stream ~Milano-Lounge-Radio~ #Electro
+http://minimalmix.com/minimalmixradio.pls ~Minimal-Mix-Radio~ #Electro
+https://online.kissfm.ua/KissFM_HD ~106.5-Kiss-FM~ #Electro
+https://stream.technolovers.fm/edm?ref=radiobrowser ~Technolovers-EDM~ #Electro
+
+//DISCO
+
+http://198.15.94.34:8006/stream ~Deep-House-Lounge~ #Disco
+http://c2.auracast.net:8048/stream ~1000-HITS-80s~ #Disco
+http://stream.open.fm/27 ~OpenFM-Italo-Disco~ #Disco
+https://80sexitos.stream.laut.fm/80sexitos ~_80-EXITOS~ #Disco
+http://stream.laut.fm/80sexitos ~80s-HITS~ #Disco
+https://giorgia.radiobellissima.it/radio/8330/radio.mp3 ~-
+https://best-of-schlager-high.rautemusik.fm/?ref=radiobrowser ~BEST-OF-SCHLAGER-by-rautemusik-(rm.fm)~ #Disco
+http://c32.radioboss.fm:8139/stream ~Nostalgie-New-York~ #Disco
+https://classichitsradio.streamingmedia.it/play ~CLASSIC-HITS-RADIO-Italia~ #Disco
+http://online.melodiafm.ua/MelodiaFM_Disco_Live ~Мелодія-FM-Disco~ #Disco
+https://giorgia.radiobellissima.it:8340/radio.mp3 ~-
+http://streams.80s80s.de/italohits/mp3-192/streams.80s80s.de/ ~80s80s-Italo-Disco~ #Disco
+http://stream.syntheticfm.com:8030/stream ~Synthetic-FM-Italo-Disco-New-Generation~ #Disco
+http://stream.open.fm/21 ~OpenFM-Disco-Polo~ #Disco
+http://stream.laut.fm/1000discohits ~1000-Discohits~ #Disco
+https://maggie.torontocast.com:8046/stream ~-
+https://www.radioeins.de/live_s.m3u ~radioeins-rbb-56-kbit/s~ #Disco
+https://discofunk.streamingmedia.it/play ~70-80-Disco-Funk-ModernSoul-e-Boogie~ #Disco
+http://channels.dinamo.fm/deep-mp3 ~dinamo.fm-deep~ #Disco
+http://stream1.rds.it:8000/discoradio ~Discoradio~ #Disco
+https://stream.nightride.fm/spacesynth.mp3 ~Nightride-FM-Spacesynth~ #Disco
+https://getradio.me/spdeep ~SoundPark-Deep~ #Disco
+https://stream1.468.gr/8004/stream ~Disco-Net~ #Disco
+http://stream.zeno.fm/ug8papw4nbruv ~RADIO-MIX-103.5~ #Disco
+http://pub0202.101.ru:8000/stream/pro/aac/64/161 ~101.ru-Italo-Disco~ #Disco
+http://89.219.35.26:8000/radions ~NS-106-FM~ #Disco
+http://strm112.1.fm/disco_mobile_mp3 ~1.FM-Disco-Ball-70's-80's-Radio~ #Disco
+http://pub0302.101.ru:8000/stream/pro/aac/64/114 ~101.ru-Boney-M.~ #Disco
+https://goldies-high.rautemusik.fm/?ref=radiobrowser ~GOLDIES-by-rautemusik-(rm.fm)~ #Disco
+http://s6.radiohost.pl:8080/ ~Radio-Italo4you~ #Disco
+https://schlager-oldies-high.rautemusik.fm/?ref=radiobrowser ~SCHLAGER-OLDIES-by-rautemusik-(rm.fm)~ #Disco
+http://195.150.20.9/80SDISCO ~RMF-80s-Disco~ #Disco
+http://62.138.2.128:8009/stream ~54house.fm-Disco~ #Disco
+https://cast1.torontocast.com:1165/stream ~RMI-Italo-Disco-Classic~ #Disco
+http://s0.radiohost.pl:9569/; ~Radio-Mirage-Euro-Dance~ #Disco
+https://quincy.torontocast.com:2500/stream ~70's-Hits-DJ-Jan-The-Man~ #Disco
+http://channels.dinamo.fm/locodyno-mp3 ~dinamo.fm-locodyno~ #Disco
+https://stream.open.fm/21 ~Disco-Polo-Open-FM~ #Disco
+http://stream.zeno.fm/rw67aty148quv.pls ~MEGATRON-MIX~ #Disco
+
+//CHILLOUT
+
+http://ice1.somafm.com/groovesalad-256-mp3 ~SomaFM-Groove-Salad~ #Chillout
+https://listen1.myradio24.com/6262 ~Спокойное-радио~ #Chillout
+http://strm112.1.fm/chilloutlounge_mobile_mp3 ~1.FM-Chillout-Lounge-Radio~ #Chillout
+https://eu1.fastcast4u.com/proxy/kpmxz?mp=/1 ~ABC-Lounge-Radio~ #Chillout
+http://mp3channels.webradio.antenne.de/chillout ~Antenne-Bayern-Chillout~ #Chillout
+https://streams.radio.co/se1a320b47/listen ~Café-del-Mar~ #Chillout
+https://maggie.torontocast.com:2020/stream/reggaechillcafe ~REGGAE-CHILL-CAFE~ #Chillout
+https://hirschmilch.de:7001/chillout.mp3 ~Hirschmilch-Radio-Chillout~ #Chillout
+https://lounge-high.rautemusik.fm/?ref=radiobrowser ~LOUNGE-by-rautemusik-(rm.fm)~ #Chillout
+http://server1.chilltrax.com:9000/ ~Chilltrax~ #Chillout
+http://air.chillout.zone:8000/radio ~Chill-Out-Zone~ #Chillout
+http://s.stereoscenic.com/mod-h.pls ~Ambient-Modern~ #Chillout
+https://media-ssl.musicradio.com/ChillMP3 ~Smooth-Chill~ #Chillout
+https://edge3.peta.live365.net/b05055_128mp3 ~Chillout-Ibiza-FM~ #Chillout
+https://giorgia.radiobellissima.it/radio/8230/radio.mp3 ~
+https://giorgia.radiobellissima.it:8240/radio.mp3 ~AIRPORT-LOUNGE-RADIO~ #Chillout
+https://stream.epic-classical.com/classical-music-for-sleep ~EPIC-CLASSICAL-Classical-Music-For-Sleep~ #Chillout
+http://chillout.zone/chillout_plus ~Chill-Out-Zone-Plus-Lossless/FLAC~ #Chillout
+http://stream.cdm-chillout.com:8020/stream-AAC-Chill ~Costa-Del-Mar-Chillout-(AAC-96kbps)~ #Chillout
+http://ice1.somafm.com/dronezone-256-mp3 ~SomaFM-Drone-Zone-256k-MP3~ #Chillout
+http://usa9.fastcast4u.com/proxy/jamz?mp=/1 ~Lofi-24/7~ #Chillout
+http://s3.sonicabroadcast.com:8635/;listen.mp3 ~Blue-Marlin-Ibiza-Radio~ #Chillout
+http://somafm.com/groovesalad130.pls ~SomaFM-Groove-Salad-128k-AAC~ #Chillout
+https://stream.epic-piano.com/chillout-piano?ref=radiobrowser ~CHILLOUT-PIANO-by-Epic-Piano~ #Chillout
+https://streams.radio.menu/listen/super-relax-fm/radio.mp3 ~Super-Relax-FM-Radio.menu~ #Chillout
+http://ice3.somafm.com/dronezone-128-aac ~SomaFM-Drone-Zone-128k-AAC~ #Chillout
+http://radio.enigmatic.su:8050/radio ~Enigmatic-3-Magnetic-Chillout~ #Chillout
+http://air.chillout.zone:8020/radio ~Psy-Chill-Zone~ #Chillout
+https://playerservices.streamtheworld.com/api/livestream-redirect/SMOOTHRELAX_AAC48.aac ~smooth-Relax~ #Chillout
+https://edge.singsingmusic.net/singsingweb024 ~MC2-Buddha-Bar-Collection~ #Chillout
+https://edge.singsingmusic.net/MC2.mp3 ~RMC2-Radio-Monte-Carlo-2~ #Chillout
+https://somafm.com/gsclassic.pls ~SomaFM-Groove-Salad-Classic-128k~ #Chillout
+https://maggie.torontocast.com:2020/stream/sensuallounge ~SENSUAL-LOUNGE~ #Chillout
+http://stream.cdm-smoothsax.com:8024/stream-mp3-Smooth ~Costa-del-Mar-Smooth-Sax~ #Chillout
+https://0n-smoothjazz.radionetz.de/0n-smoothjazz.aac ~0-N-Smooth-Jazz-on-Radio~ #Chillout
+https://mpc1.mediacp.eu/stream/smoothjazzdeluxe ~SMOOTH-JAZZ-DELUXE~ #Chillout
+http://channels.dinamo.fm/sleep-mp3 ~dinamo.fm-sleep~ #Chillout
+https://cast.radiogroup.com.ua/chillout320 ~LoungeFm-Chill-Out~ #Chillout
+https://radiorecord.hostingradio.ru/chil32.aacp ~Radio-Record-Chill-Out~ #Chillout
+http://streams.dez.ovh:8000/radio.mp3 ~Chillofi-radio~ #Chillout
+http://radio.stereoscenic.com/ama-s ~a.m.-ambient~ #Chillout
+https://cast.radiogroup.com.ua/terrace320 ~LoungeFM-Terrace~ #Chillout
+http://stream.zeno.fm/3u1qndyk8rhvv ~MoE-Lofi~ #Chillout
+http://stream.sunshine-live.de/sp8/mp3-192/stream.sunshine-live.de/ ~Sunshine-Live-Chillout~ #Chillout
+http://prem1.radiotunes.com/chilloutdreams_hi?907a839cb7ee13512903cbcf ~Chillout-Dreams~ #Chillout
+https://somafm.com/beatblender130.pls ~SomaFM-Beat-Blender-(128k-AAC)~ #Chillout
+https://chill.100radios.net/ ~100-Chill-Radio-(USA)-64k-aac+~ #Chillout
+https://stream.epic-lounge.com/ibiza-chillout-lounge?ref=radiobrowser ~Epic-Lounge-IBIZA-CHILLOUT-LOUNGE~ #Chillout
+http://channels.dinamo.fm/caffe-mp3 ~dinamo.fm-caffe~ #Chillout
+https://0n-chillout.radionetz.de/0n-chillout.mp3 ~0-N-Chillout-on-Radio~ #Chillout
+http://radio.stereoscenic.com/ama-h ~a.m.-ambient~ #Chillout
+http://streamer.psyradio.org:8020/;listen.mp3 ~psyradio-*-fm-chillout~ #Chillout
+https://0n-smoothjazz.radionetz.de/0n-smoothjazz.mp3 ~0-N-Smooth-Jazz-on-Radio~ #Chillout
+
+//AMBIENT
+
+http://ice3.somafm.com/groovesalad-128-mp3 ~SomaFM-Groove-Salad~ #Ambient
+http://ice.somafm.com/secretagent ~SomaFM-Secret-Agent~ #Ambient
+http://streams.echoesofbluemars.org:8000/cryosleep ~Cryosleep~ #Ambient
+http://ice1.somafm.com/deepspaceone-128-aac ~SomaFM-Deep-Space-One-128k-AAC+~ #Ambient
+http://radio.stereoscenic.com/asp-s ~Ambient-Sleeping-Pill~ #Ambient
+http://s3.viastreaming.net:8835/ ~Dark-Ambient-Radio-(96k-AAC+)~ #Ambient
+http://radiorecord.hostingradio.ru/ambient96.aacp ~Radio-Record-Ambient~ #Ambient
+http://stream.deep.radio/hd ~Deep-Radio~ #Ambient
+http://uk4-vn.webcast-server.net:9270/ ~Fluid-Radio~ #Ambient
+https://somafm.com/deepspaceone130.pls ~SomaFM-Deep-Space-One-128k-AAC+~ #Ambient
+https://mpc2.mediacp.eu/stream/natureradiosleep ~NATURE-RADIO-SLEEP~ #Ambient
+https://giorgia.radiobellissima.it:8300/radio.mp3 ~100%-COVERS-LOUNGE~ #Ambient
+http://oceanwaves.radio.mynoise.net/ ~MyNoise-Ocean-Waves~ #Ambient
+https://streaming.radio.co/s5c5da6a36/listen ~Birdsong.fm~ #Ambient
+https://somafm.com/synphaera256.pls ~SomaFM-Synphaera-Radio~ #Ambient
+https://stream.vanillaradio.com:8090/live ~Vanilla-Radio-Deep-Flavors-[HD-320]~ #Ambient
+https://somafm.com/defcon130.pls ~SomaFM-DEF-CON-Radio-128k~ #Ambient
+https://cast4.asurahosting.com:2199/tunein/sleeprad.pls ~Sleep-Radio~ #Ambient
+https://stm1.srvif.com:7576/; ~Groove-Wave-Lounge~ #Ambient
+https://somafm.com/deepspaceone32.pls ~SomaFM-Deep-Space-One~ #Ambient
+https://stream.technolovers.fm/techno?ref=radiobrowser ~Technolovers-TECHNO~ #Ambient
+https://purenature-mynoise.radioca.st/stream ~MyNoise-Pure-Nature~ #Ambient
+http://streams.echoesofbluemars.org:8000/bluemars ~Echoes-of-Bluemars~ #Ambient
+https://maggie.torontocast.com:2020/stream/natureradiorain ~Nature-Radio-Rain~ #Ambient
+https://streams.rautemusik.fm/techno/mp3-192/?ref=radiobrowser ~TECHNO-by-rautemusik.fm~ #Ambient
+http://klassikr.streamabc.net/klr-klrnqlq9rgbhlxvasj-mp3-128-1390868 ~Klassik-Radio-Relax-Meditation-(DE)~ #Ambient
+https://somafm.com/darkzone256.pls ~SomaFM-The-Dark-Zone~ #Ambient
+http://stream.laut.fm/total-instrumental ~Total-instrumental~ #Ambient
+https://stream.epic-lounge.com/sleep-meditation?ref=radiobrowser ~Epic-Lounge-SLEEP-&-MEDITATION~ #Ambient
+https://0n-chillout.radionetz.de/0n-chillout.aac ~0-N-Chillout-on-Radio~
