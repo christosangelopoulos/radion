@@ -224,6 +224,7 @@ function main ()
 	done
 }
 ###############################################
+
 B="\x1b[38;5;60m" #Grid Color
 Y="\033[1;33m"    #Yellow
 G="\033[1;32m"    #Green
@@ -233,4 +234,5 @@ M="\033[1;35m"    #Magenta
 C="\033[1;36m"    #Cyan
 n=`tput sgr0`     #Normal
 export B Y G I R M C n #in order to work with fzf
+if [[ -e $HOME/.config/mpv/icyhistory.log ]]; then cat /dev/null>$HOME/.config/mpv/icyhistory.log ; fi
 load_config
