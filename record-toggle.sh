@@ -4,7 +4,7 @@ function name_save ()
 {
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-	yad --image="$HOME/.cache/radion/png/stop.png" --text="Recording Stopped..." --no-buttons --on-top --undecorated --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;echo "yad pid:"$YAD_PID;fi &
+	yad --image="$HOME/.cache/radion/png/stop.png" --text="Recording Stopped..." --no-buttons --on-top --undecorated --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;echo "yad pid:"$YAD_PID;fi
 	case $REC_NAME_PROTOCOL in
 		"date")REC_NAME="$(date +%Y-%m-%d\_%T)";
 		;;
@@ -14,7 +14,8 @@ function name_save ()
 		;;
 		"blank")if [[ $YAD_TOGGLE == "yes" ]];then yad_name_file "Please enter file name:" "";else REC_NAME="$(date +%s)";fi
 	esac
-	sox /tmp/radion-tmp1.wav "$HOME""$RECORD_DIR""$REC_NAME.$OUT_FORMAT" norm&&	if [[ $YAD_TOGGLE == "yes" ]];then kill $(cat /tmp/rec-yad-pid.txt)
+	sox /tmp/radion-tmp1.wav "$HOME""$RECORD_DIR""$REC_NAME.$OUT_FORMAT" norm
+		if [[ $YAD_TOGGLE == "yes" ]];then kill $(cat /tmp/rec-yad-pid.txt)
 	yad --image="$HOME/.cache/radion/png/audio.png" --text="$REC_NAME.$OUT_FORMAT normalized and saved." --button=gtk-ok:0 --undecorated --on-top --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10 --timeout="$YAD_DURATION";fi;
 }
 
