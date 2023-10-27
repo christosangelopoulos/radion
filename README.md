@@ -29,20 +29,45 @@ Through the main menu, the user can :
 
 - **Find new Stations**, visiting [https://www.radio-browser.info/](https://www.radio-browser.info/)
 
-- **Quit Radion**.
+- **❌ Quit Radion**.
 
 ---
-## Adding a Station
+## Finding a New Station
 
-In order to **add a station to radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion, or through any text editor.
+- Selecting the option **🔎 Find Stations**, the user is directed to  [https://www.radio-browser.info/](https://www.radio-browser.info/).
+
+- There the user can search and find one or more stations that fit their particular and personal taste, e.g. :
+
+![radiobrowser1.png](screenshots/radiobrowser1.png)
+
+- Clicking on this station, the user is directed to a page with the station's specific details. From all this data, the user picks the **station's url**:
+
+![radiobrowser2.png](screenshots/radiobrowser2.png)
+
+The user should use **this url** while he adds a new line with this station's data to `$HOME/.cache/radion/station.txt`, selecting the **📋 Edit Stations** option.
+
+
+
+---
+## Adding a Station to Radion
+
+In order to **add a station to radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion (**📋 Edit Stations**), or through any text editor.
+
 **The format of the line should be the following**:
 
-`station-url ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
+`station-url  ~Name-of-the-Station~ #Tag1 #Tag2 #Tag3`
 
-- The `station-url` should go first.
-- `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by **hyphen** `-`
-- Finally, tags come next, starting with **number sign** `#`. There can be as many tags in a line as the user likes.
--  The **`#Favorites` tag** adds the station to the **Favorites**.
+for instance:
+
+**https://lyd.nrk.no/nrk_radio_jazz_mp3_h ~NRK-Jazz~ #Jazz #Favorites**
+
+- The `station-url` should go first: `https://lyd.nrk.no/nrk_radio_jazz_mp3_h`
+- `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by **hyphen** `-` : `~NRK-Jazz~`
+- Finally, tags come next, starting with **number sign** `#`. `#Jazz #Favorites`
+
+    There can be as many tags in a line as the user likes . 
+
+     The **`#Favorites` tag** adds the station to the **Favorites**.
 
 - Adding empty lines to the file has no repercussions to the functionality. Separating lines to groups is also done only for demonstative purposes. To comment out a line, **add `//` at the beginning**.
 
