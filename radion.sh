@@ -234,5 +234,8 @@ M="\033[1;35m"    #Magenta
 C="\033[1;36m"    #Cyan
 n=`tput sgr0`     #Normal
 export B Y G I R M C n #in order to work with fzf
-if [[ -e $HOME/.config/mpv/icyhistory.log ]]; then cat /dev/null>$HOME/.config/mpv/icyhistory.log ; fi
+if [[ -e $HOME/.config/mpv/icyhistory.log ]]&&[[ $(cat $HOME/.config/mpv/icyhistory.log|wc -l) -gt 1000 ]]
+	then
+		tail -500 $HOME/.config/mpv/icyhistory.log >/tmp/icytemp.log&&mv /tmp/icytemp.log $HOME/.config/mpv/icyhistory.log
+	fi #keep icyhistory.log under 500 at each start.
 load_config
