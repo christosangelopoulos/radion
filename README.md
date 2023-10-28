@@ -90,6 +90,9 @@ It is up to the user to select one of the above alternatives, or follow any othe
 
 Through the `Preferences'   option, the user will be able to define audio file saving destination directory, configure/toggle recording notification dimensions position and duration, output file format and naming protocol. 
 
+**NOTICE**: The script will not just record the **Radion (mpv)** output. The main dependency  program used to record (`sox`) will use the default sound device is used as input  source.
+Take care with **microphones** attached, or with **system sounds**, because if not, you may as well capture them, too.
+
 
 ---
 ## Configuring radion (Preferences option)
