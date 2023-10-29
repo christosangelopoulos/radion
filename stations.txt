@@ -1,6 +1,8 @@
 //JAZZ
 
-https://lyd.nrk.no/nrk_radio_jazz_mp3_h ~NRK-Jazz~ #Jazz #Favorites
+https://http-live.sr.se/p2musik-aac-320 ~Sveriges-Radio-P2~ #Jazz
+http://polushon.com/arch/playlist.pls ~Polushon~ #Jazz
+http://lyd.nrk.no/nrk_radio_jazz_mp3_h.m3u ~NRK-Jazz~ #Jazz #Favorites
 https://cast1.torontocast.com:1655/stream ~ClassicalJazzRadio~ #Jazz
 https://tunein.com/radio/JAZZFM91-911-s31229/ ~JazzFM91~ #Jazz
 http://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3 ~TSF-Jazz~ #Jazz
@@ -801,6 +803,9 @@ https://0n-smoothjazz.radionetz.de/0n-smoothjazz.mp3 ~0-N-Smooth-Jazz-on-Radio~ 
 
 //AMBIENT
 
+http://www.spacetravelradio.de/listen_str.pls ~Space-Travel-Radio~ #Ambient
+http://uk5.internet-radio.com:8347/listen.pls&t=.pls ~Ambiesphere~ #Ambient
+http://uk2.internet-radio.com:8171/listen.pls&t=.pls ~Ambient-Radio-Org~ #Ambient
 http://ice3.somafm.com/groovesalad-128-mp3 ~SomaFM-Groove-Salad~ #Ambient
 http://ice.somafm.com/secretagent ~SomaFM-Secret-Agent~ #Ambient
 http://streams.echoesofbluemars.org:8000/cryosleep ~Cryosleep~ #Ambient
@@ -830,4 +835,4 @@ http://klassikr.streamabc.net/klr-klrnqlq9rgbhlxvasj-mp3-128-1390868 ~Klassik-Ra
 https://somafm.com/darkzone256.pls ~SomaFM-The-Dark-Zone~ #Ambient
 http://stream.laut.fm/total-instrumental ~Total-instrumental~ #Ambient
 https://stream.epic-lounge.com/sleep-meditation?ref=radiobrowser ~Epic-Lounge-SLEEP-&-MEDITATION~ #Ambient
-https://0n-chillout.radionetz.de/0n-chillout.aac ~0-N-Chillout-on-Radio~
+https://0n-chillout.radionetz.de/0n-chillout.aac ~0-N-Chillout-on-Radio~ #Ambient
