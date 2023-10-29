@@ -1,10 +1,21 @@
 #! /bin/bash
 #record-toggle.sh is a scrip written by Christos Angelopoulos, October 2023, under GPL v2
+
+function print_logo ()
+{
+	echo " ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
+	echo " │ R ││ E ││ C ││ O ││ R ││ D │"
+	echo " ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯"
+	echo " ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
+	echo " │ T ││ O ││ G ││ G ││ L ││ E │"
+	echo " ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯"
+}
+
 function name_save ()
 {
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-	yad --text="<span foreground='magenta'>⏹ </span>Recording Stopped..." --no-buttons --on-top --undecorated --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;echo "yad pid:"$YAD_PID;fi
+	yad --text="<span foreground='magenta'>⏹ </span>Recording Stopped..." --no-buttons --on-top --undecorated --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;fi
 	case $REC_NAME_PROTOCOL in
 		"date")REC_NAME="$(date +%Y-%m-%d\_%T)";
 		;;
@@ -16,16 +27,17 @@ function name_save ()
 	esac
 	sox /tmp/radion-tmp1.wav "$HOME""$RECORD_DIR""$REC_NAME.$OUT_FORMAT" norm
 		if [[ $YAD_TOGGLE == "yes" ]];then kill $(cat /tmp/rec-yad-pid.txt)
-	yad --text="<span foreground='lime'>♫ </span>$REC_NAME.$OUT_FORMAT normalized and saved." --button=gtk-ok:0 --undecorated --on-top --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10 --timeout="$YAD_DURATION";fi;
+	yad --text="<span foreground='lime'>🗸 </span>$REC_NAME.$OUT_FORMAT normalized and saved." --button=gtk-ok:0 --undecorated --on-top --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10 --timeout="$YAD_DURATION";fi;
 }
 
 function rec_toggle_on ()
 {
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;echo "yad pid:"$YAD_PID
+		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;
 	fi
 	rec -c 2 -r 44100 /tmp/radion-tmp1.wav
+	echo "Recording is over. File naming..."
 }
 
 function rec_toggle_off ()
@@ -64,6 +76,7 @@ function load_config ()
 	REC_NAME_PROTOCOL="$(grep 'Rec_name_protocol' $HOME/.config/radion/radion.conf|sed 's/Rec_name_protocol //')";
 }
 #############################
+print_logo
 load_config
 REC_PID=$(pidof rec)
 if [[ -n $REC_PID ]]
