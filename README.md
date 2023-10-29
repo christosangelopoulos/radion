@@ -287,7 +287,7 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 
 ## Uninstall
 
-- To uninstall, from the radion/ directory, run: 
+- To uninstall, from the `radion/` directory, run: 
 
 ```
 ./install.sh uninstall
