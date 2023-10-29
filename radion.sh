@@ -75,11 +75,11 @@ function read_select_station ()
 		echo -e "${Y}$TAG${n}"
 
 		LINE=1
-		LINEMAX=$(cat $HOME/.cache/radion/.select_tag.txt|wc -l)
+		LINEMAX=$(cat /tmp/radion_select_tag.txt|wc -l)
 		echo -e "${B}╭────────────────────────────────╮"
 		while [[ $LINE -le $LINEMAX ]]
 		do
-			PRINT_LINE="│ ${M}$LINE ${C}$(head -$LINE $HOME/.cache/radion/.select_tag.txt|tail +$LINE|awk '{print $2"                          "}'|sed 's/-/ /g;s/~//g')"
+			PRINT_LINE="│ ${M}$LINE ${C}$(head -$LINE /tmp/radion_select_tag.txt|tail +$LINE|awk '{print $2"                          "}'|sed 's/-/ /g;s/~//g')"
 			echo -e "${PRINT_LINE:0:53}${B}│"
 			((LINE++))
 		done
@@ -96,8 +96,8 @@ function read_select_station ()
 		elif [[ $INDEX == "X" ]]||[[ $INDEX == "x" ]];then LOOP2=1;ABORT=1
 		elif [[ -n $INDEX_NUM ]]&&[[ $INDEX_NUM -gt 0 ]]&&[[ $INDEX_NUM -le $LINEMAX ]]&&[[ $ABORT -eq 0 ]]
 		then
-			STATION_URL="$(awk '{print NR" "$0}' $HOME/.cache/radion/.select_tag.txt|grep -E "^$INDEX_NUM "|awk '{print $2}')"
-			STATION="$(awk '{print NR" "$0}' $HOME/.cache/radion/.select_tag.txt|grep -E "^$INDEX_NUM "|awk '{print $3}'|sed 's/-/ /g;s/~//g')"
+			STATION_URL="$(awk '{print NR" "$0}' /tmp/radion_select_tag.txt|grep -E "^$INDEX_NUM "|awk '{print $2}')"
+			STATION="$(awk '{print NR" "$0}' /tmp/radion_select_tag.txt|grep -E "^$INDEX_NUM "|awk '{print $3}'|sed 's/-/ /g;s/~//g')"
 			play_station
 			LOOP2=1
 		fi
@@ -111,7 +111,7 @@ function read_select_tag ()
 	do
 		clear
 		print_logo
-		TAGS=( $(sed 's/ /\n/g' $HOME/.cache/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g') )
+		TAGS=( $(sed 's/ /\n/g' $HOME/.config/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g') )
 
 		echo -e "${B}   ╭──────────────────────────Tags─╮"
 		x=0
@@ -123,7 +123,7 @@ function read_select_tag ()
 		done
 		echo -e "   ├─────────────────────Favorites─┤"
 		z=0
-		FAVS=( $(grep "#Favorites" $HOME/.cache/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/~//g') )
+		FAVS=( $(grep "#Favorites" $HOME/.config/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/~//g') )
 		while [[ $z -lt ${#FAVS[@]} ]]
 		do
 		FAVLINE="   │  ${M} $((x+z+1))${Y} ${FAVS[z]//-/ }                                  "
@@ -141,20 +141,20 @@ function read_select_tag ()
 		echo -e "   ╰───────────────────────────────╯${M}"
 		read TAG_INDEX
 		TAG_INDEX_NUM="$(echo $TAG_INDEX|sed 's/[[:cntrl:]]//g;s/[a-z]//g;s/[A-Z]//g;s/[[:punct:]]//g;s/ //g')"
-		if [[ $TAG_INDEX == "E" ]]||[[ $TAG_INDEX == "e" ]];then eval $PREF_EDITOR $HOME/.cache/radion/stations.txt
+		if [[ $TAG_INDEX == "E" ]]||[[ $TAG_INDEX == "e" ]];then eval $PREF_EDITOR $HOME/.config/radion/stations.txt
 		elif [[ $TAG_INDEX == "P" ]]||[[ $TAG_INDEX == "p" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
 		elif [[ $TAG_INDEX == "Q" ]]||[[ $TAG_INDEX == "q" ]];then clear;exit
-		elif [[ $TAG_INDEX == "A" ]]||[[ $TAG_INDEX == "a" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";grep -v -E ^$ $HOME/.cache/radion/stations.txt|grep -v -E ^// >$HOME/.cache/radion/.select_tag.txt;LOOP1=1
+		elif [[ $TAG_INDEX == "A" ]]||[[ $TAG_INDEX == "a" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";grep -v -E ^$ $HOME/.config/radion/stations.txt|grep -v -E ^// >/tmp/radion_select_tag.txt;LOOP1=1
 		elif [[ $TAG_INDEX == "D" ]]||[[ $TAG_INDEX == "d" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
 		elif [[ -n $TAG_INDEX_NUM ]]&&[[ $TAG_INDEX_NUM -gt ${#TAGS[@]} ]]&&[[ $TAG_INDEX_NUM -le $(($z+${#FAVS[@]}+1)) ]]
 		then
 		STATION=${FAVS[$(($TAG_INDEX_NUM-$x-1))]}
-		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.cache/radion/stations.txt|awk '{print $1}')"
+		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.config/radion/stations.txt|awk '{print $1}')"
 		play_station
 		elif [[ -n $TAG_INDEX_NUM ]]&&[[ $TAG_INDEX_NUM -gt 0 ]]&&[[ $TAG_INDEX_NUM -le ${#TAGS[@]} ]]
 		then
 			TAG="#${TAGS[$(($TAG_INDEX_NUM-1))]}"
-			grep $TAG $HOME/.cache/radion/stations.txt >$HOME/.cache/radion/.select_tag.txt
+			grep $TAG $HOME/.config/radion/stations.txt >/tmp/radion_select_tag.txt
 			LOOP1=1
 		fi
 	done
@@ -169,22 +169,22 @@ function select_tag ()
 		print_logo
 		if [[ $PREF_SELECTOR == fzf ]]
 		then
-			TAG_INDEX="$(echo -e "${B}────────────────────── 🔖 Tags\n${C}$(sed 's/ /\n/g' $HOME/.cache/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g;s/$//g')${n}\n${B}────────────────────── ⭐ Favorites\n${Y}$(grep "#Favorites" $HOME/.cache/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')"${n}"\n${B}────────────────────── 🔧 Actions\n${G}⭐ All Stations\n📋 Edit Stations\n🔧 Preferences\n🔎 Find Stations\n${R}❌ Quit Radion${n}"|eval "$PREF_SELECTOR_STR""\"$PROMPT_TEXT\"" )"
+			TAG_INDEX="$(echo -e "${B}────────────────────── 🔖 Tags\n${C}$(sed 's/ /\n/g' $HOME/.config/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g;s/$//g')${n}\n${B}────────────────────── ⭐ Favorites\n${Y}$(grep "#Favorites" $HOME/.config/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')"${n}"\n${B}────────────────────── 🔧 Actions\n${G}⭐ All Stations\n📋 Edit Stations\n🔧 Preferences\n🔎 Find Stations\n${R}❌ Quit Radion${n}"|eval "$PREF_SELECTOR_STR""\"$PROMPT_TEXT\"" )"
 		elif [[ $PREF_SELECTOR == "dmenu" ]]||[[ $PREF_SELECTOR == "rofi" ]]
 		then
-			TAG_INDEX="$(echo -e "────────────────────── 🔖 Tags\n$(sed 's/ /\n/g' $HOME/.cache/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g;s/$//g')\n────────────────────── ⭐ Favorites\n$(grep "#Favorites" $HOME/.cache/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')""\n────────────────────── 🔧 Actions\n⭐ All Stations\n📋 Edit Stations\n🔧 Preferences\n🔎 Find Stations\n❌ Quit Radion"|eval "$PREF_SELECTOR_STR""\"$PROMPT_TEXT\"" )"
+			TAG_INDEX="$(echo -e "────────────────────── 🔖 Tags\n$(sed 's/ /\n/g' $HOME/.config/radion/stations.txt |grep "#"|grep -v "#Favorites"|sort|uniq|sed 's/#//g;s/$//g')\n────────────────────── ⭐ Favorites\n$(grep "#Favorites" $HOME/.config/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')""\n────────────────────── 🔧 Actions\n⭐ All Stations\n📋 Edit Stations\n🔧 Preferences\n🔎 Find Stations\n❌ Quit Radion"|eval "$PREF_SELECTOR_STR""\"$PROMPT_TEXT\"" )"
 		fi
-		if [[ $TAG_INDEX == "📋 Edit Stations" ]];then eval $PREF_EDITOR $HOME/.cache/radion/stations.txt
+		if [[ $TAG_INDEX == "📋 Edit Stations" ]];then eval $PREF_EDITOR $HOME/.config/radion/stations.txt
 		elif [[ $TAG_INDEX == "🔧 Preferences" ]];then eval $PREF_EDITOR $HOME/.config/radion/radion.conf;load_config
 		elif [[ $TAG_INDEX == "❌ Quit Radion" ]];then clear;exit
 		elif [[ $TAG_INDEX == "⭐ All Stations" ]]||[[ $TAG_INDEX == "" ]];then 	TAG=":";	echo -e "${Y}⭐ All Stations${n}";LOOP1=1
 		elif [[ $TAG_INDEX == "🔎 Find Stations" ]];then $URL_OPENER "https://www.radio-browser.info/tags" ;echo -e "${R}NOTICE:\n${B}Press any key to continue with radion.${n}";read -sn 1 d
 		elif [[ $TAG_INDEX == *"────────────"* ]];then LOOP1=0
 		#echo -e "${C}Congratulations.\nYou selected the separator line.\nA wise choise.\n${B}Press any key to continue.${n}";read -sn 1 d
-		elif [[ -n $(grep "~${TAG_INDEX// /-}~" $HOME/.cache/radion/stations.txt|awk '{print $1}') ]]
+		elif [[ -n $(grep "~${TAG_INDEX// /-}~" $HOME/.config/radion/stations.txt|awk '{print $1}') ]]
 		then
 		STATION=$TAG_INDEX
-		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.cache/radion/stations.txt|awk '{print $1}')"
+		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.config/radion/stations.txt|awk '{print $1}')"
 		play_station
 		else TAG="#$TAG_INDEX";echo -e "${Y}$TAG${n}";LOOP1=1;fi
 	done
@@ -192,13 +192,13 @@ function select_tag ()
 
 function select_station ()
 {
-	STATION="$(echo -e "$(grep "$TAG" $HOME/.cache/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')\n────────────────────────\n👈 Go Back\n❌ Quit Radion"|eval "$PREF_SELECTOR_STR""\"Select $TAG Station \"")"
+	STATION="$(echo -e "$(grep "$TAG" $HOME/.config/radion/stations.txt|grep -v -E ^$|grep -v -E ^//|awk {'print $2'}|sed 's/-/ /g;s/~//g')\n────────────────────────\n👈 Go Back\n❌ Quit Radion"|eval "$PREF_SELECTOR_STR""\"Select $TAG Station \"")"
 	if [[ $STATION == "❌ Quit Radion" ]];then clear;exit;fi
 	if [[ $STATION == "👈 Go Back" ]];then STATION="";fi
 	#if [[ $STATION == "────────────────────────" ]];then STATION="";echo -e "${C}Congratulations.\nYou selected the separator line.\nWise choise.\n${B}Press any key to continue.${n}";read -sn 1 d;fi
 	if [[ -n $STATION ]]
 	then
-		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.cache/radion/stations.txt|awk '{print $1}')"
+		STATION_URL="$(grep ~${STATION// /-}~ $HOME/.config/radion/stations.txt|awk '{print $1}')"
 		play_station
 #	else
 #		echo -e "${R}ABORT?\n${B}Please press\nany key  ${Y}to continue${B}\nq        ${R}to QUIT${n}"
@@ -237,5 +237,5 @@ export B Y G I R M C n #in order to work with fzf
 if [[ -e $HOME/.config/mpv/icyhistory.log ]]&&[[ $(cat $HOME/.config/mpv/icyhistory.log|wc -l) -gt 1000 ]]
 	then
 		tail -500 $HOME/.config/mpv/icyhistory.log >/tmp/icytemp.log&&mv /tmp/icytemp.log $HOME/.config/mpv/icyhistory.log
-	fi #keep icyhistory.log under 500 at each start.
+	fi #keep icyhistory.log under 1000 at each start.
 load_config

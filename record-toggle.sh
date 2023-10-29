@@ -8,7 +8,7 @@ function name_save ()
 	case $REC_NAME_PROTOCOL in
 		"date")REC_NAME="$(date +%Y-%m-%d\_%T)";
 		;;
-		"icy")if [[ $YAD_TOGGLE == "yes" ]];then yad_name_file "Is this the correct title?" "$(tail -1  ~/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";else REC_NAME="$(tail -1  ~/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";fi;if [[ -z $REC_NAME ]]||[[ $REC_NAME == " No title available " ]];then REC_NAME="$(date +%s)";fi;
+		"icy")if [[ $YAD_TOGGLE == "yes" ]];then yad_name_file "Is this the correct title?" "$(tail -1  $HOME/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";else REC_NAME="$(tail -1  $HOME/.config/mpv/icyhistory.log | awk -F '|' '{print $3}')";fi;if [[ -z $REC_NAME ]]||[[ $REC_NAME == " No title available " ]];then REC_NAME="$(date +%s)";fi;
 		;;
 		"epoch")REC_NAME="$(date +%s)";
 		;;
@@ -23,7 +23,6 @@ function rec_toggle_on ()
 {
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-#killall yad
 		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;echo "yad pid:"$YAD_PID
 	fi
 	rec -c 2 -r 44100 /tmp/radion-tmp1.wav

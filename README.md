@@ -44,14 +44,14 @@ Through the main menu, the user can :
 
 ![radiobrowser2.png](screenshots/radiobrowser2.png)
 
-The user should use **this url** while he adds a new line with this station's data to `$HOME/.cache/radion/station.txt`, selecting the **📋 Edit Stations** option.
+The user should use **this url** while he adds a new line with this station's data to `$HOME/.config/radion/stations.txt`, selecting the **📋 Edit Stations** option.
 
 
 
 ---
 ## Adding a Station to Radion
 
-In order to **add a station to radion**, the user edits the `$HOME/.cache/radion/stations.txt` file, either within radion (**📋 Edit Stations**), or through any text editor.
+In order to **add a station to radion**, the user edits the `$HOME/.config/radion/stations.txt` file, either within radion (**📋 Edit Stations**), or through any text editor.
 
 **The format of the line should be the following**:
 
@@ -114,7 +114,9 @@ As far as recording is concerned, the user can set the following preferences:
 
 - **Record directory** defines the record-toggle.sh audio file saving directory.Defaultvalue is : `/Music/radion/ `
 
-    **CAUTION**: Ommit `$HOME` or `~`:  /Music/radion/ => ~/Music/radion/)
+    **CAUTION**: Ommit `$HOME` or `~`:
+
+    /Music/radion/ => ~/Music/radion/)
 
 The following values are about notifications using `yad`.
 
@@ -243,46 +245,20 @@ However, for reason mentioned above, it is advisable that `yad` is installed and
 git clone https://gitlab.com/christosangel/radion/
 ```
 
-- Change directory to `radion/`, make `radion.sh` and `record-toggle.sh` executable:
+- Change directory to `radion/`, make `install.sh` executable:
 
 ```
 cd radion/
 
-chmod +x radion.sh
-
-chmod +x record-toggle.sh
+chmod +x install.sh
 ```
 
-- Create the necessary directories & files for `radion.sh`:
+- Run:
+
 
 ```
-mkdir ~/.cache/radion/
+./install.sh install
 
-mkdir ~/.config/radion/
-
-cp stations.txt ~/.cache/radion/
-
-cp radion.conf ~/.config/radion/
-
-cp -r png/  ~/.cache/radion/
-```
-
-- Create the necessary directories & files for `record-toggle.sh`:
-
-```
-mkdir ~/Music/radion/
-
-mkdir -p ~/.config/mpv/scripts/
-
-cp icecast-logger.lua ~/.config/mpv/scripts/
-```
-
--Add `radion.sh` and `record-toggle.sh` to the `PATH`:
-
-```
-cp radion.sh ~/.local/bin/
-
-cp record-toggle.sh ~/.local/bin/
 ```
 You are ready to go!
 
@@ -309,6 +285,20 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 
 - A second time, to stop recording
 
+## Uninstall
+
+- To uninstall, from the radion/ directory, run: 
+
+```
+./install.sh uninstall
+```
+- To purge the dot files as well, run :
+
+```
+./install.sh purge
+```
+
+---
 ***Enjoy!***
 
 ---
