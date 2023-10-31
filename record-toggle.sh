@@ -1,14 +1,14 @@
 #! /bin/bash
+#	 ╭───────────────╮
+#	 │ RECORD-TOGGLE │
+#	 ╰───────────────╯
 #record-toggle.sh is a scrip written by Christos Angelopoulos, October 2023, under GPL v2
 
 function print_logo ()
 {
-	echo " ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
-	echo " │ R ││ E ││ C ││ O ││ R ││ D │"
-	echo " ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯"
-	echo " ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
-	echo " │ T ││ O ││ G ││ G ││ L ││ E │"
-	echo " ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯"
+	echo " ╭───────────────╮"
+	echo " │ RECORD-TOGGLE │"
+	echo " ╰───────────────╯"
 }
 
 function name_save ()
@@ -32,12 +32,13 @@ function name_save ()
 
 function rec_toggle_on ()
 {
+	echo "Recording..."
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}')&&	echo $YAD_PID>/tmp/rec-yad-pid.txt;
+		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}');echo $YAD_PID>/tmp/rec-yad-pid.txt;while	[[ $YAD_PID !=  $(cat /tmp/rec-yad-pid.txt) ]];do YAD_PID=$(pidof yad |awk '{print $1}');echo "yad pid: $YAD_PID";echo $YAD_PID>/tmp/rec-yad-pid.txt;done;
 	fi
 	rec -c 2 -r 44100 /tmp/radion-tmp1.wav
-	echo "Recording is over. File naming..."
+	echo "Recording stopped. File naming..."
 }
 
 function rec_toggle_off ()
