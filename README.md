@@ -2,7 +2,7 @@
 
 **radion** is an internet radio CLI client, written in Bash, for **Gnu/Linux and MacOS**.
 
-![1read](screenshots/1read.png)
+![1read](screenshots/1read.png ){width=450}
 
 Radion can be costumized as far as the station selecting program is concerned. The user can choose between:
 
@@ -21,11 +21,11 @@ Through the main menu, the user can :
 
 - **Edit Stations** and their tags, by editing the specific file:
 
-![edit_stations](screenshots/edit_stations.png)
+![edit_stations](screenshots/edit_stations.png){width=500}
 
 - **Configure Preferences**, by editing the .conf file:
 
-![nano](screenshots/nano.png)
+![nano](screenshots/nano.png){width=500}
 
 - **Find new Stations**, visiting [https://www.radio-browser.info/](https://www.radio-browser.info/)
 
@@ -38,11 +38,11 @@ Through the main menu, the user can :
 
 - There the user can search and find one or more stations that fit their particular and personal taste, e.g. :
 
-![radiobrowser1.png](screenshots/radiobrowser1.png)
+![radiobrowser1.png](screenshots/radiobrowser1.png){width=500}
 
 - Clicking on this station, the user is directed to a page with the station's specific details. From all this data, the user picks the **station's url**:
 
-![radiobrowser2.png](screenshots/radiobrowser2.png)
+![radiobrowser2.png](screenshots/radiobrowser2.png){width=500}
 
 The user should use **this url** while he adds a new line with this station's data to `$HOME/.config/radion/stations.txt`, selecting the **📋 Edit Stations** option.
 
@@ -105,7 +105,7 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 - **Prompt text**. Prompt text defines the **prompt text for fzf, rofi and dmenu.Pipe symbol** `|` is not to be ignored, stands for the end of the string.
 - **Show mpv keybindings**. Acceptable values: yes no. This variable toggles the appearence of a little **mpv keybinding cheatsheet**:
 
-![keybindings](screenshots/keybindings.png)
+![keybindings](screenshots/keybindings.png){width=200}
 
 ---
 ## Configuring record-toggle (Preferences option)
@@ -130,13 +130,13 @@ It is advisable **not** to disable yad notifications, as it would be challenging
 
 If, however, you decide to proceed without notifications (perhaps because the user can't / won't install `yad`), it is advisable to **always run the script in a terminal and never headless**, regardeless whether the launcher is a keybind, desktop or panel launcher.
 
-![launcher](screenshots/launcher.png)
+![launcher](screenshots/launcher.png){width=400}
 
 With notifications toggled off, `blank` naming protocol defaults to `epoch`. Same thing happens to `icy`, when there is no title available with notifications toggled off.
 
 Yad notifications in this script never steal focus, but are sticky (appear on all workspaces) and always on top.
 
-![yad](screenshots/yad.png)
+![yad](screenshots/yad.png){width=400}
 
 Yad dialogs that prompt the user for the output audio file appear in the center of the screen.
 
@@ -178,7 +178,7 @@ For more info, visit `man sox`,  `man soxformat`.
 
         Using a mpv lua script, if icecast is available, the name of the icecast title is detected and suggested as a probable filename:
 
-![icy](screenshots/icy.png)
+![icy](screenshots/icy.png){width=400}
 
 **CAUTION**: `icy` option requires `icecast-logger.lua` installed in ~/.config/mpv/scripts/, so follow the install instructions included.
  `icecast-logger.lua`is a mpv script that logs metadata from Icecast streams.
@@ -210,11 +210,11 @@ brew install mpv
 
 **Radion** can function with no other dependencies, however, the user can install [fzf](https://github.com/junegunn/fzf), [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu/), according to their preference.
 
-![1fzf](screenshots/1fzf.png)
+![1fzf](screenshots/1fzf.png){width=500}
 
-![1rofi](screenshots/1rofi.png)
+![1rofi](screenshots/1rofi.png){width=500}
 
-![1dmenu](screenshots/1dmenu.png)
+![1dmenu](screenshots/1dmenu.png){width=500}
 
 ---
 
@@ -271,13 +271,13 @@ from any directory, run the command:
 ```
 radion.sh
 ```
-![play](screenshots/play.png)
+![play](screenshots/play.png){width=500}
 
 The mpv player is controlled with the mpv defined keybindings.
 
 The user can also create a launcher using one of the images from the `png/` directory:
 
-![png](screenshots/png.png)
+![png](screenshots/png.png){width=300}
 
 In order to **record**, the user uses the assigned by themselves keyboard shortcut/launcher/desktop laucher
 
