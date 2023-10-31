@@ -59,7 +59,7 @@ In order to **add a station to radion**, the user edits the `$HOME/.config/radio
 
 for instance:
 
-**https://lyd.nrk.no/nrk_radio_jazz_mp3_h ~NRK-Jazz~ #Jazz #Favorites**
+`https://lyd.nrk.no/nrk_radio_jazz_mp3_h ~NRK-Jazz~ #Jazz #Favorites`
 
 - The `station-url` should go first: `https://lyd.nrk.no/nrk_radio_jazz_mp3_h`
 - `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by **hyphen** `-` : `~NRK-Jazz~`
