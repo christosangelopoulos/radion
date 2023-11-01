@@ -35,7 +35,7 @@ function rec_toggle_on ()
 	echo "Recording..."
 	if [[ $YAD_TOGGLE == "yes" ]]
 	then
-		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}');echo $YAD_PID>/tmp/rec-yad-pid.txt;while	[[ $YAD_PID !=  $(cat /tmp/rec-yad-pid.txt) ]];do YAD_PID=$(pidof yad |awk '{print $1}');echo "yad pid: $YAD_PID";echo $YAD_PID>/tmp/rec-yad-pid.txt;done;
+		yad --text="<span foreground='red'>⏺ </span>Recording..." --no-buttons --undecorated --no-focus --on-top --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10&YAD_PID=$(pidof yad |awk '{print $1}');echo "Yad pid: $YAD_PID";echo $YAD_PID>/tmp/rec-yad-pid.txt;while	[[ $YAD_PID !=  $(cat /tmp/rec-yad-pid.txt) ]]||[[ -z $(cat /tmp/rec-yad-pid.txt) ]];do YAD_PID=$(pidof yad |awk '{print $1}');echo "Getting yad pid: $YAD_PID";echo $YAD_PID>/tmp/rec-yad-pid.txt;done;
 	fi
 	rec -c 2 -r 44100 /tmp/radion-tmp1.wav
 	echo "Recording stopped. File naming..."
