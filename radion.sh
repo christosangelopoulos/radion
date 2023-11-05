@@ -35,9 +35,9 @@ function play_station ()
 
 function print_logo ()
 {
-	echo -e "${B} ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
-	echo -e " │ ${Y}R ${B}││ ${Y}A ${B}││ ${Y}D ${B}││ ${Y}I ${B}││ ${Y}O ${B}││ ${Y}N ${B}│"
-	echo -e " ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯${n}"
+	echo -e "${B}    ╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮"
+	echo -e "    │ ${Y}R ${B}││ ${Y}A ${B}││ ${Y}D ${B}││ ${Y}I ${B}││ ${Y}O ${B}││ ${Y}N ${B}│"
+	echo -e "    ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯${n}"
 }
 
 function load_config ()
