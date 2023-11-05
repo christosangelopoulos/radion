@@ -9,7 +9,6 @@ preserve() {
 uninstall() {
     rm -vf ~/.local/bin/radion.sh
     rm -vf ~/.local/bin/record-toggle.sh
-    rm -vrf ~/.config/radion/png
     rm ~/.config/mpv/scripts/icecast-logger.lua
     rm ~/.config/mpv/icyhistory.log
 }
@@ -19,6 +18,7 @@ case $1 in
     preserve stations.txt ~/.config/radion
     preserve radion.conf ~/.config/radion
     install -Dvcm644 -b icecast-logger.lua -t ~/.config/mpv/scripts/
+    install -Dvcm644 -b radion-rofi-theme.rasi -t ~/.config/radion/
     install -Dvcm755 -d ~/Music/radion/
     install -Dvcm755 radion.sh ~/.local/bin/
     install -Dvcm755 record-toggle.sh ~/.local/bin/
@@ -30,13 +30,11 @@ case $1 in
   purge)
     uninstall
     rm -vrf ~/.config/radion
-    rm ~/.config/mpv/scripts/icecast-logger.lua
-    rm ~/.config/mpv/icyhistory.log
     ;;
   *)
     printf "USAGE: %s <command>\n" "$0"
     printf "   install    installs radion\n"
-    printf "   uninstall  uninstalls the radion executables and assets\n"
+    printf "   uninstall  uninstalls the radion executables, ~/.config/mpv/scripts/icecast-logger.lua\n"
     printf "   purge      completely uninstalls radion, including all radion config files\n"
     ;;
 esac

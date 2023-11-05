@@ -102,10 +102,19 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 - **Preferred selector**. Acceptable values: `read`, `fzf`, `rofi`, `dmenu`.
 - **Preferred editor**. Acceptable values can be `vim`, `nano`, `gedit`, `xed` or any other terminal or graphical text editor command **+ any flags**. For further info, visiting the respectable command `man` pages is  recommended.
 - **fzf format, dmenu format, rofi format**: Here the `fzf`,  `dmenu` and `rofi` command string can be configured. If the user is not sure they know what they are doing, they are advised to **leave these variables alone**. At any rate, visiting the respectable command `man` page is **highly recommended**. Also, **pipe symbols** `|` are not to be ignored, they stand for the end of the string.
+    - **Rofi theming** 
+
+        There is a rofi theme included in the repo, `radion-rofi-theme.rasi`, which install process will be copied in the `$HOME/.config/radion/` directory. The user can either:
+        
+          - Use the **default rofi theme** in the system by editing the `rofi_format` line in `$HOME/.config/radion/radion.conf` file( remove the `-theme $HOME/.config/radion/radion-rofi-theme.rasi` flag).
+          - Edit the `$HOME/.config/radion/radion-rofi-theme.rasi` according to their liking.
+
+
+ 
 - **Prompt text**. Prompt text defines the **prompt text for fzf, rofi and dmenu.Pipe symbol** `|` is not to be ignored, stands for the end of the string.
 - **Show mpv keybindings**. Acceptable values: yes no. This variable toggles the appearence of a little **mpv keybinding cheatsheet**:
 
-![keybindings](screenshots/keybindings.png){width=200}
+![keybindings](screenshots/keybindings.png){width=150}
 
 ---
 ## Configuring record-toggle (Preferences option)
@@ -210,7 +219,7 @@ brew install mpv
 
 **Radion** can function with no other dependencies, however, the user can install [fzf](https://github.com/junegunn/fzf), [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu/), according to their preference.
 
-![1fzf](screenshots/1fzf.png){width=500}
+![1fzf](screenshots/1fzf.png){width=300}
 
 ![1rofi](screenshots/1rofi.png){width=500}
 
