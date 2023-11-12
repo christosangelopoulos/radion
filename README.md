@@ -11,13 +11,15 @@ Radion can be costumized as far as the station selecting program is concerned. T
 - **rofi**
 - **dmenu**
 
-Through the main menu, the user can :
+Through the menus, the user can :
 
+- Select directly  a  **Favorite Station**.
+- Select a **random station**.
 - Select a **tag** to pick a station from
 
 ![tag](screenshots/tag.png)
 
-- Select directly  a  **Favorite Station**.
+
 
 - **Edit Stations** and their tags, by editing the specific file:
 
@@ -221,9 +223,9 @@ brew install mpv
 
 ![1fzf](screenshots/1fzf.png){width=300}
 
-![1rofi](screenshots/1rofi.png){width=500}
+![1rofi](screenshots/1rofi.png){width=300}
 
-![1dmenu](screenshots/1dmenu.png){width=500}
+![1dmenu](screenshots/1dmenu.png){width=300}
 
 ---
 
