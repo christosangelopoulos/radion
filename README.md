@@ -310,7 +310,7 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 ```
 
 ---
-##Python script
+## Python script
 
 For users who prefer using python scripts from using bash scripts, the repo contains a python script with the same functionalities.
 
