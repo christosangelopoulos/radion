@@ -310,6 +310,32 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 ```
 
 ---
+##Python script
+
+For users who prefer using python scripts from using bash scripts, the repo contains a python script with the same functionalities.
+
+- Make sure you have the necessary nodules installed:
+
+```
+pip3 install mpv termios sys  tty time random
+```
+
+- Keep stations.txt and `radion.py   in the same directory.
+
+- Make the script executable, then run:
+
+```
+chmod +x radion.py
+./radion.py
+```
+- Or, just run:
+
+```
+python3 radion.py
+```
+
+
+---
 ***Enjoy!***
 
 ---
