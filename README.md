@@ -14,7 +14,9 @@ Radion can be costumized as far as the station selecting program is concerned. T
 Through the menus, the user can :
 
 - Select directly  a  **Favorite Station**.
+
 - Select a **random station**.
+
 - Select a **tag** to pick a station from
 
 ![tag](screenshots/tag.png)

@@ -47,17 +47,19 @@ def select_station(TAG_SELECTED, stations_lines):
   if station_index_check_num == True:
    if int(STATION_INDEX) == 0:
     ran = (random.randrange(0,tag_selected_len-1))
-    STATION = tag_selected_name[ran].strip('~')
-    STATION = STATION.replace("-", " ")
-    STATION_URL = tag_selected_url[ran]
-    mpv_PLAY(STATION, STATION_URL)
+#    STATION = tag_selected_name[ran].strip('~')
+#    STATION = STATION.replace("-", " ")
+#    STATION_URL = tag_selected_url[ran]
+    mpv_PLAY(tag_selected_name, tag_selected_url, ran)
     LOOP2=1
    if int(STATION_INDEX) > 0 and int(STATION_INDEX) <= tag_selected_len:
-    STATION = tag_selected_name[int(STATION_INDEX)-1].strip('~')
-    STATION = STATION.replace("-", " ")
-    STATION_URL = tag_selected_url[int(STATION_INDEX)-1]
+#    STATION = tag_selected_name[int(STATION_INDEX)-1].strip('~')
+#    STATION = STATION.replace("-", " ")
+#    STATION_URL = tag_selected_url[int(STATION_INDEX)-1]
     LOOP2 = 1
-    mpv_PLAY(STATION, STATION_URL)
+    s_index = int(STATION_INDEX)
+    s_index -= 1
+    mpv_PLAY(tag_selected_name, tag_selected_url, s_index)
 
 def print_menu_2(sel_name,sel_url,sel_len):
  print("\033c")
@@ -114,6 +116,8 @@ def keybindings():
  print("\r"+B+"├─────┼──────────┤")
  print("\r"+B+"│"+M+" ↑ ↓ "+B+"│"+C+" Skip 60\""+B+" │")
  print("\r"+B+"├─────┼──────────┤")
+ print("\r"+B+"│"+M+" < > "+B+"│"+C+"Prev/Next"+B+" │")
+ print("\r"+B+"├─────┼──────────┤")
  print("\r"+B+"│"+M+"  q  "+B+"│"+R+"     Quit "+B+"│")
  print("\r"+B+"╰─────┴──────────╯"+M)
 
@@ -122,28 +126,66 @@ def print_logo():
  print("\r    │ "+Y+"R "+B+"││ "+Y+"A "+B+"││ "+Y+"D "+B+"││ "+Y+"I "+B+"││ "+Y+"O "+B+"││ "+Y+"N "+B+"│")
  print("\r    ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯"+n)
 
-def mpv_PLAY(STATION, STATION_URL):
-# print_play(STATION, STATION_URL)
+def mpv_PLAY(name_list, url_list, playl_index):
  player = mpv.MPV()
  player.terminal = True
- player.term_status_msg = '\r\x1b[38;5;60mV:${volume}%  P:${time-pos}/${duration} (${percent-pos}% ${demuxer-cache-duration}\b\b\b\b)    '
+# player.term_status_msg = '\r\x1b[38;5;60mV:${volume}%  P:${time-pos}/${duration} (${percent-pos}% ${demuxer-cache-duration}\b\b\b\b)    '
  player.input_terminal = False
- player.term_title = "Py-Radion"
+ player.really_quiet =True
+ STATION = name_list[playl_index].strip('~')
+ STATION = M+str(playl_index+1)+" "+Y+STATION.replace("-", " ")
+ STATION_URL = url_list[playl_index]
  player.play(STATION_URL)
+
  keybind_loop=0
  while keybind_loop == 0:
   print("\033c")
-  @player.property_observer('metadata')
-  def metadata_observer(_name, value1):
+  @player.property_observer('time-pos')
+  def cache_speed_observer(_name, value):
    try:
     if keybind_loop != 1 :
      print_play(STATION, STATION_URL)
-     title = value1.get('icy-title')
-     if title == None:
-      title = "No Title Available"
-     print("\r"+B+"Title   : "+Y+title+n)
+     vol = str(int(player.volume))+"%"
+     dur = player.duration
+     per = player.percent_pos
+     cac = player.demuxer_cache_duration
+#     dat = player.metadata
+     tit1 = player.metadata.get('icy-title')
+     tit2 = player.metadata.get('title')
+     tit3 = player.metadata.get('TITLE')
+     tit4 = player.metadata.get('artist')
+     tit5 = player.metadata.get('ARTIST')
+     if player.mute == True:
+      vol = str(int(player.volume))+'% - Muted'
+     if player.pause == True:
+      vol = str(int(player.volume))+'% - Paused'
+     if tit1 == None:
+      tit1 = ""
+     if tit2 == None:
+      tit2 = ""
+     if tit3 == None:
+      tit3 = ""
+     if tit4 == None:
+      tit4 = ""
+     if tit5 == None:
+      tit5 = ""
+     if tit4 == "" and tit5 == "":
+      pavla = ""
+     else:
+      pavla = " - "
+     tit0 = G+tit1+tit2+tit3+pavla+tit4+tit5
+     if tit0 == G:
+      tit0 = "Not Available"
+     for z in [ value, dur, per, cac ]:
+      if z == None:
+       z = 0
+     print("\r"+B+"Title   : "+tit0, "\n\r"+B+"Position:",str(int(value))+"/"+str(int(dur))+" sec ("+str(int(per))+"%)","Cache:",int(cac),"sec\n\rVolume  :",vol)
+
+     time.sleep(0.1)
    except:
-    time.sleep(0.5)
+    time.sleep(0.1)
+
+#  print_play(STATION, STATION_URL)
   getch = _getch()
   if getch == 'q' or getch == 'Q':
    keybind_loop=1
@@ -173,15 +215,42 @@ def mpv_PLAY(STATION, STATION_URL):
     player.pause = True
    else:
     player.pause = False
+  elif getch == ">":
+   if playl_index < len(url_list)-1:
+    playl_index +=1
+   else:
+    playl_index = 0
+   STATION = name_list[playl_index].strip('~')
+   STATION = M+str(playl_index+1)+" "+Y+STATION.replace("-", " ")
+   STATION_URL = url_list[playl_index]
+   player.stop()
+   player.play(STATION_URL)
+  elif getch == "<":
+   if playl_index > 0 :
+    playl_index -=1
+    STATION = name_list[playl_index].strip('~')
+   else:
+    playl_index = len(url_list)-1
+   STATION = name_list[playl_index].strip('~')
+   STATION = M+str(playl_index+1)+" "+Y+STATION.replace("-", " ")
+   STATION_URL = url_list[playl_index]
+   player.stop()
+   player.play(STATION_URL)
+
+
+
+
+
 
 def print_play(STATION, STATION_URL):
  print("\033c")
  print_logo()
  keybindings()
- print("\r"+B+"Station : "+Y+STATION+"\n\r"+B+"URL     : "+C+STATION_URL+n)
+ print("\r"+B+"Station : "+STATION+"\n\r"+B+"URL     : "+C+STATION_URL+n)
 
 #########################################
-B="\x1b[38;5;60m" #Grid Color
+#B="\x1b[38;5;60m" #Grid Color
+B="\033[1;30m"
 Y="\033[1;33m"    #Yellow
 G="\033[1;32m"    #Green
 R="\033[1;31m"    #Red
@@ -215,6 +284,7 @@ while x < stations_lines_len:
    fav_url.append(line_list[0])
    fav_name.append(line_list[1])
    fav_len += 1
+
  #TAGS
  tags0 = stations_lines[x].split(" ")
  tags0_len = len(tags0)
@@ -249,17 +319,19 @@ while True:
   if tag_index_check_num == True:
    if int(TAG_INDEX) == 0:
     ran = (random.randrange(0,stations_len-1))
-    STATION = stations_name[ran].strip('~')
-    STATION = STATION.replace("-", " ")
-    STATION_URL = stations_url[ran]
+#    STATION = stations_name[ran].strip('~')
+#    STATION = STATION.replace("-", " ")
+#    STATION_URL = stations_url[ran]
     LOOP1=1
-    mpv_PLAY(STATION, STATION_URL)
+    mpv_PLAY(stations_name, stations_url, ran)
    if int(TAG_INDEX) > 0 and int(TAG_INDEX) <= fav_len:
-    STATION = fav_name[int(TAG_INDEX)-1].strip('~')
-    STATION = STATION.replace("-", " ")
-    STATION_URL = fav_url[int(TAG_INDEX)-1]
+#    STATION = fav_name[int(TAG_INDEX)-1].strip('~')
+#    STATION = STATION.replace("-", " ")
+#    STATION_URL = fav_url[int(TAG_INDEX)-1]
+    t_index = int(TAG_INDEX)
+    t_index -= 1
     LOOP1=1
-    mpv_PLAY(STATION, STATION_URL)
+    mpv_PLAY(fav_name, fav_url, t_index)
    if int(TAG_INDEX) > fav_len and int(TAG_INDEX) <= fav_len+TAGS_len:
     TAG_SELECTED = TAGS[int(TAG_INDEX)-fav_len-TAGS_len-1]
     select_station(TAG_SELECTED, stations_lines)
