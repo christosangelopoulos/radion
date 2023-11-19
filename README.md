@@ -292,6 +292,12 @@ The user can also create a launcher using one of the images from the `png/` dire
 
 ![png](screenshots/png.png){width=300}
 
+![png](png/radio.png){width=60}
+
+![png](png/radio2.png){width=60}
+
+The *radio.png and radio2.png icons* were created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/radio).
+
 In order to **record**, the user uses the assigned by themselves keyboard shortcut/launcher/desktop laucher
 
 - Once, to start recording
