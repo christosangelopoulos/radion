@@ -8,16 +8,37 @@ local HISTFILE = CONFIG_DIR.."/mpv/icyhistory.log";
 local function append_to_file(file, val)
     local logfile;
 
-    if val ~= nil and val["icy-title"] then
-    title = val["icy-title"]
-    name = val["icy-name"]
-    end
-        if val == nil then
+    if val == nil then
     title = "No title available"
-    name = "No name available"
+    name = "No name"
+    artist = "Uknown artist"
     end
+    if val ~= nil  then
+     if val["icy-title"] then
+      name = val["icy-name"]
+      title = val["icy-title"]
+      artist = ""
+     end
+     if val["title"] then
+      name = val["icy-name"]
+      title = val["title"]
+      artist = val["artist"]
+     end
+     if val["Title"] then
+      name = val["icy-name"]
+      title = val["Title"]
+      artist = val["Artist"]
+     end
+     if val["TITLE"] then
+      name = val["icy-name"]
+      title = val["TITLE"]
+      artist = val["ARTIST"]
+     end
+    end
+
         logfile = io.open(file, "a+");
-        logfile:write(("%s | %s | %s\n"):format(os.date("%Y-%m-%d | %H:%M:%S"), title, name));
+
+        logfile:write(("%s | %s - %s | %s\n"):format(os.date("%Y-%m-%d | %H:%M:%S"), title, artist, name));
         logfile:close();
 end
 

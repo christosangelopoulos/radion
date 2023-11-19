@@ -69,7 +69,7 @@ for instance:
 - `Name of the Station` should come next, between **tildes** `~`, and whitespaces substituted by **hyphen** `-` : `~NRK-Jazz~`
 - Finally, tags come next, starting with **number sign** `#`. `#Jazz #Favorites`
 
-    There can be as many tags in a line as the user likes . 
+    There can be as many tags in a line as the user likes .
 
      The **`#Favorites` tag** adds the station to the **Favorites**.
 
@@ -81,7 +81,7 @@ for instance:
 **Recording a radio stream** in **radion** can be done with another bash script called `record-toggle.sh`.
 This script uses the powerful [sox](https://en.wikipedia.org/wiki/SoX) program to record the default output, which evidently plays the radion mpv output.
 
-The user has minimum direct control over this script, in effect the script just toggles recording on and off. 
+The user has minimum direct control over this script, in effect the script just toggles recording on and off.
 Through the mpv shortcuts, the user can navigate to the exact desired point to start recording. Then the script is executed once to start recording, and then once more, to stop recording, normalize and save the audio file.
 
 The script can either:
@@ -92,7 +92,7 @@ The script can either:
 
 It is up to the user to select one of the above alternatives, or follow any other. Creating a keyboard shortcut, a desktop or a desktop panel launcher depends more or less on the user's Desktop Environment (or perhaps its abscense), and describing such procedures is beyond the scope of this document.
 
-Through the `Preferences'   option, the user will be able to define audio file saving destination directory, configure/toggle recording notification dimensions position and duration, output file format and naming protocol. 
+Through the `Preferences'   option, the user will be able to define audio file saving destination directory, configure/toggle recording notification dimensions position and duration, output file format and naming protocol.
 
 **NOTICE**: The script will not just record the **Radion (mpv)** output. The main dependency  program used to record (`sox`) will use the default sound device is used as input  source.
 Take care with **microphones** attached, or with **system sounds**, because if not, you may as well capture them, too.
@@ -106,15 +106,15 @@ As mentioned above, selecting the `Preferences option` (or editing `$HOME/.confi
 - **Preferred selector**. Acceptable values: `read`, `fzf`, `rofi`, `dmenu`.
 - **Preferred editor**. Acceptable values can be `vim`, `nano`, `gedit`, `xed` or any other terminal or graphical text editor command **+ any flags**. For further info, visiting the respectable command `man` pages is  recommended.
 - **fzf format, dmenu format, rofi format**: Here the `fzf`,  `dmenu` and `rofi` command string can be configured. If the user is not sure they know what they are doing, they are advised to **leave these variables alone**. At any rate, visiting the respectable command `man` page is **highly recommended**. Also, **pipe symbols** `|` are not to be ignored, they stand for the end of the string.
-    - **Rofi theming** 
+    - **Rofi theming**
 
         There is a rofi theme included in the repo, `radion-rofi-theme.rasi`, which install process will be copied in the `$HOME/.config/radion/` directory. The user can either:
-        
+
           - Use the **default rofi theme** in the system by editing the `rofi_format` line in `$HOME/.config/radion/radion.conf` file( remove the `-theme $HOME/.config/radion/radion-rofi-theme.rasi` flag).
           - Edit the `$HOME/.config/radion/radion-rofi-theme.rasi` according to their liking.
 
 
- 
+
 - **Prompt text**. Prompt text defines the **prompt text for fzf, rofi and dmenu.Pipe symbol** `|` is not to be ignored, stands for the end of the string.
 - **Show mpv keybindings**. Acceptable values: yes no. This variable toggles the appearence of a little **mpv keybinding cheatsheet**:
 
@@ -153,8 +153,8 @@ Yad notifications in this script never steal focus, but are sticky (appear on al
 
 Yad dialogs that prompt the user for the output audio file appear in the center of the screen.
 
-- **Yad duration** controls notifications duration (seconds). 
- 
+- **Yad duration** controls notifications duration (seconds).
+
     Acceptable values: integers bigger than 0. Default value: 3.
 
 - **Yad dimensions** evidently is about notifations dimensions (width, height).
@@ -168,7 +168,7 @@ Yad dialogs that prompt the user for the output audio file appear in the center 
 
     Default values: 0 0 (Top left of the screen).
 
-The following values are about the actual recording process using `sox`. 
+The following values are about the actual recording process using `sox`.
 
 For more info, visit `man sox`,  `man soxformat`.
 
@@ -187,7 +187,7 @@ For more info, visit `man sox`,  `man soxformat`.
     - date: output audio filed is named using date\_time, e.g. *2023-10-23\_17:31:34.mp3*
     - epoch: output audio filed is named with the number of seconds since 1970-01-01 00:00:00 UTC, e.g. *1698138047.ogg*
     - blank: The user will be prompted by a yad dialog for the file's name.
-    - icy: In this option the user will be prompted by a yad dialog for the file's name, with one difference: 
+    - icy: In this option the user will be prompted by a yad dialog for the file's name, with one difference:
 
         Using a mpv lua script, if icecast is available, the name of the icecast title is detected and suggested as a probable filename:
 
@@ -300,7 +300,7 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 
 ## Uninstall
 
-- To uninstall, from the `radion/` directory, run: 
+- To uninstall, from the `radion/` directory, run:
 
 ```
 ./install.sh uninstall
@@ -312,29 +312,12 @@ In order to **record**, the user uses the assigned by themselves keyboard shortc
 ```
 
 ---
-## Python script
+## Python version
 
-For users who prefer using python scripts from using bash scripts, the repo contains a python script with the same functionalities.
+For users who prefer using python scripts from using bash scripts, there is also the **Python Version** of this project:
 
-- Make sure you have the necessary nodules installed:
+[https://gitlab.com/christosangel/pyradion](https://gitlab.com/christosangel/pyradion)
 
-```
-pip3 install mpv termios sys  tty time random
-```
-
-- Keep stations.txt and `radion.py   in the same directory.
-
-- Make the script executable, then run:
-
-```
-chmod +x radion.py
-./radion.py
-```
-- Or, just run:
-
-```
-python3 radion.py
-```
 
 
 ---
