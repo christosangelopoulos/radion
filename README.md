@@ -1,6 +1,6 @@
 # radion
 
-**radion** is an internet radio CLI client, written in Bash, for **Gnu/Linux and MacOS**.
+**radion** is an internet radio TUI client, written in Bash, for **Gnu/Linux and MacOS**.
 
 ![1read](screenshots/1read.png ){width=450}
 
