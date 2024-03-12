@@ -19,14 +19,14 @@ http://streaming.radio.co/s297e618a7/listen ~Giants-of-Jazz-Radio~ #Jazz
 http://radio.canstream.co.uk:8075/live.mp3 ~Jazz-London-Radio~ #Jazz
 http://us9.streamingpulse.com:7033/stream.m3u ~WDNA-889~ #Jazz
 https://onair22.xdevel.com/proxy/xautocloud_kkyb_420?mp=/stream ~Jazz-de-Ville-Jazz~ #Jazz
-http://somafm.com/sonicuniverse192.pls ~SomaFM-Sonic-Universe~ #Jazz #Favorites
+http://somafm.com/sonicuniverse192.pls ~SomaFM-Sonic-Universe~ #Jazz
 http://s4.yesstreaming.net:7170/stream ~WNMC-Community-Public-Radio~ #Jazz
-https://wvia.streamguys1.com/WVIAHD3AAC.m3u ~The-Chiaroscuro-Channel~ #Jazz #Favorites
+https://wvia.streamguys1.com/WVIAHD3AAC.m3u ~The-Chiaroscuro-Channel~ #Jazz
 http://amp.cesnet.cz:8000/cro-jazz.flac ~CesNet-Jazz~ #Jazz #Favorites
 https://www.jazzradio.hu:8000/jazzradio_192.ogg ~Jazzradio.hu~ #Jazz #Favorites
 http://mscp3.live-streams.nl:8340/jazz-flac.flac ~Naim-Jazz~ #Jazz
 https://icecast.walmradio.com:8443/jazz_opus ~Adroit-Jazz-Underground-HD-Opus~ #Jazz
-http://198.204.228.202:8030/flac7 ~Super-Stereo-7~ #Jazz #Favorites
+http://198.204.228.202:8030/flac7 ~Super-Stereo-7~ #Jazz
 https://air.jazz.w3.at/jazzw3.ogg ~JazzW3~ #Jazz
 
 //GREEK
@@ -37,7 +37,7 @@ https://radiostreaming.ert.gr/ert-deftero ~ΕΡΤ-Δεύτερο-πρόγραμ�
 https://radiostreaming.ert.gr/ert-trito ~ΕΡΤ-Τρίτο-πρόγραμμα-90.9~ #Greek #Classical
 https://radiostreaming.ert.gr/ert-kosmos ~ΕΡΤ-Κόσμος-93.6~ #Greek
 http://radio.getimiskon.xyz/stream ~Getimiskon~ #Rock #Greek
-http://n08.radiojar.com/qgra821mrtwtv?rj-ttl=5&rj-tok=AAABizU2xLsAFCbxO4bxPEeXKg ~ThePressProject~ #Greek #Favorites
+http://n08.radiojar.com/qgra821mrtwtv?rj-ttl=5&rj-tok=AAABizU2xLsAFCbxO4bxPEeXKg ~ThePressProject~ #Greek
 https://www.1431am.org:8001/1431high ~1431ΑΜ~ #Greek #Rock
 http://n01.radiojar.com/1qpu1agw4mzuv.mp3?rj-ttl=5&rj-tok=AAABizoZePcAp7_RYOteWlFwKA ~Ioannina-Μunicipal~ #Greek
 https://rs.radio.uoc.gr:8001/uoc_128.mp3 ~Ra-sta-pan-k~ #Greek
@@ -53,7 +53,7 @@ http://netradio.live24.gr:80/kanali1peiraia ~Pireas-Municipal~ #Greek
 
 //FOLK
 
-http://s3.onweb.gr:8878 ~Κρήτη-FM-87.5~ #Greek #Favorites #Folk
+http://s3.onweb.gr:8878 ~Κρήτη-FM-87.5~ #Greek  #Folk
 https://radio.nrk.no/direkte/folkemusikk ~NRK-Folk~ #Folk
 http://www.pontosstockholm.com:8000/live.mp3 ~Pontos-Stockholm~ #Folk #Greek
 https://www.radioking.com/play/alternative-radio-1 ~Alternative-Radio~ #Folk
@@ -254,6 +254,7 @@ https://stream.almadinafm.com/;stream.mp3 ~AL-MADDINA-FM~ #Rock
 http://icy.unitedradio.it/VirginRock70.mp3 ~Virgin-Radio-Rock-'70~ #Rock
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m-mp4a_130400_qad=1.m3u8 ~Radio-2M~ #Rock
 http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/ ~RADIO-BOB!-Classic-Rock~ #Rock
+http://stream-uk1.radioparadise.com/aac-320 ~Radio-Paradise~ #Rock
 
 //HEAVY METAL
 
