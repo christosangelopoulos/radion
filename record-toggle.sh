@@ -27,7 +27,7 @@ function name_save ()
 	esac
 	sox /tmp/radion-tmp1.wav "$HOME""$RECORD_DIR""$REC_NAME.$OUT_FORMAT" norm
 		if [[ $YAD_TOGGLE == "yes" ]];then kill $(cat /tmp/rec-yad-pid.txt)
-	yad --text="<span foreground='lime'>🗸 </span>$REC_NAME.$OUT_FORMAT normalized and saved." --button=gtk-ok:0 --undecorated --on-top --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10 --timeout="$YAD_DURATION";fi;
+	yad --text="<span foreground='lime'>ΟΚ! </span>$REC_NAME.$OUT_FORMAT normalized and saved." --button=gtk-ok:0 --undecorated --on-top --no-focus --skip-taskbar --sticky --geometry=${YAD_WIDTH}x${YAD_HEIGHT}+$YAD_X+$YAD_Y --borders=10 --timeout="$YAD_DURATION";fi;
 }
 
 function rec_toggle_on ()
