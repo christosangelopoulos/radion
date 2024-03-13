@@ -252,7 +252,7 @@ function main ()
 }
 ###############################################
 
-B="\x1b[38;5;60m" #Grid Color
+B="\x1b[38;5;242m" #Grid Color
 Y="\033[1;33m"    #Yellow
 G="\033[1;32m"    #Green
 I="\e[7m" #Invert
