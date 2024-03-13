@@ -28,6 +28,7 @@ http://mscp3.live-streams.nl:8340/jazz-flac.flac ~Naim-Jazz~ #Jazz
 https://icecast.walmradio.com:8443/jazz_opus ~Adroit-Jazz-Underground-HD-Opus~ #Jazz
 http://198.204.228.202:8030/flac7 ~Super-Stereo-7~ #Jazz
 https://air.jazz.w3.at/jazzw3.ogg ~JazzW3~ #Jazz
+http://stream.srg-ssr.ch/m/rsj/mp3_128 ~Radio-Swiss-Jazz~ #Jazz
 
 //GREEK
 
